@@ -5,7 +5,7 @@
     "global_name": "NoviaHorton",
     "id": "1463951235823439924"
   },
-  "total_servers": 32,
+  "total_servers": 31,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -284,15 +284,6 @@
       "approximate_member_count": 30,
       "icon": "https://cdn.discordapp.com/icons/1467181712483029086/e45b823940511f411bcb8db51ba91f09.png",
       "invite_link": "https://discord.gg/sKyVXdH5xw",
-      "invite_status": "created"
-    },
-    {
-      "name": "MAINTENAING",
-      "id": "1472906063631224864",
-      "owner": false,
-      "approximate_member_count": 15,
-      "icon": "https://cdn.discordapp.com/icons/1472906063631224864/00fbd16177e0c8b3601a16a555c8c412.png",
-      "invite_link": "https://discord.gg/Jd3UZCj9Ms",
       "invite_status": "created"
     }
   ]
