@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Discord Server Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+<style>
+  /* ── CONFIG: Ganti GITHUB_OWNER, GITHUB_REPO di script bawah ── */
+
+  :root {
+    --bg:        #0a0a0f;
+    --surface:   #111118;
+    --card:      #16161f;
+    --border:    #1f1f2e;
+    --accent:    #5865F2;
+    --accent2:   #eb459e;
+    --green:     #57f287;
+    --yellow:    #fee75c;
+    --red:       #ed4245;
+    --text:      #e8e8f0;
+    --muted:     #6b6b8a;
+    --glow:      rgba(88,101,242,0.15);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Syne', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── Animated grid background ── */
+  body::before {
+    content: '';
+    position: fixed; inset: 0; z-index: 0;
+    background-image:
+      linear-gradient(var(--border) 1px, transparent 1px),
+      linear-gradient(90deg, var(--border) 1px, transparent 1px);
+    background-size: 40px 40px;
+    mask-image: radial-gradient(ellipse 80% 80% at 50% 0%, black 40%, transparent 100%);
+    opacity: 0.4;
+  }
+
+  /* ── Glowing blob ── */
+  body::after {
+    content: '';
+    position: fixed;
+    top: -200px; left: 50%; transform: translateX(-50%);
+    width: 800px; height: 500px;
+    background: radial-gradient(ellipse, rgba(88,101,242,0.12) 0%, transparent 70%);
+    pointer-events: none; z-index: 0;
+  }
+
+  .wrap { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 0 24px 80px; }
+
+  /* ── Header ── */
+  header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 32px 0 48px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+
+  .logo {
+    display: flex; align-items: center; gap: 12px;
+  }
+  .logo-icon {
+    width: 40px; height: 40px;
+    background: var(--accent);
+    border-radius: 12px;
+    display: grid; place-items: center;
+    font-size: 20px;
+    box-shadow: 0 0 20px rgba(88,101,242,0.4);
+  }
+  .logo-text {
+    font-size: 18px; font-weight: 800; letter-spacing: -0.5px;
+  }
+  .logo-sub {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px; color: var(--muted); display: block; margin-top: 1px;
+  }
+
+  .meta {
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px; color: var(--muted);
+    line-height: 1.8;
+  }
+  .meta .live-dot {
+    display: inline-block; width: 6px; height: 6px;
+    background: var(--green); border-radius: 50%;
+    margin-right: 5px;
+    box-shadow: 0 0 6px var(--green);
+    animation: pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%,100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.8); }
+  }
+
+  /* ── Stats bar ── */
+  .stats-bar {
+    display: flex; gap: 12px; margin-bottom: 36px; flex-wrap: wrap;
+  }
+  .stat-chip {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+  }
+  .stat-chip span { color: var(--accent); font-weight: 700; }
+
+  /* ── Search & Filter ── */
+  .toolbar {
+    display: flex; gap: 10px; margin-bottom: 28px; flex-wrap: wrap; align-items: center;
+  }
+  .search-box {
+    flex: 1; min-width: 200px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: var(--text);
+    font-family: 'Syne', sans-serif;
+    font-size: 13px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .search-box:focus { border-color: var(--accent); }
+  .search-box::placeholder { color: var(--muted); }
+
+  .filter-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 16px;
+    color: var(--muted);
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .filter-btn:hover, .filter-btn.active {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* ── Grid ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+
+  /* ── Card ── */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+    animation: fadeUp 0.4s ease both;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(88,101,242,0.4);
+    box-shadow: 0 8px 32px rgba(88,101,242,0.1);
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .card-banner {
+    height: 6px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+  }
+  .card-banner.no-invite { background: var(--border); }
+
+  .card-body { padding: 18px; }
+
+  .card-top {
+    display: flex; align-items: center; gap: 14px; margin-bottom: 14px;
+  }
+  .server-icon {
+    width: 52px; height: 52px; border-radius: 14px;
+    background: var(--surface);
+    border: 2px solid var(--border);
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .server-icon.placeholder {
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; font-weight: 800; color: var(--accent);
+    background: var(--glow);
+    border-color: rgba(88,101,242,0.3);
+  }
+  .server-name {
+    font-size: 15px; font-weight: 700; line-height: 1.3;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .server-id {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px; color: var(--muted); margin-top: 2px;
+  }
+
+  .card-info {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 8px; margin-bottom: 14px;
+  }
+  .info-item {
+    background: var(--surface);
+    border-radius: 8px; padding: 8px 10px;
+  }
+  .info-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 9px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.5px;
+    margin-bottom: 3px;
+  }
+  .info-value {
+    font-size: 13px; font-weight: 600;
+  }
+  .info-value.green { color: var(--green); }
+  .info-value.yellow { color: var(--yellow); }
+  .info-value.red { color: var(--red); }
+  .info-value.muted { color: var(--muted); }
+
+  /* ── Invite button ── */
+  .invite-btn {
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+    width: 100%;
+    background: rgba(88,101,242,0.12);
+    border: 1px solid rgba(88,101,242,0.3);
+    border-radius: 8px;
+    padding: 9px;
+    color: var(--accent);
+    font-family: 'Space Mono', monospace;
+    font-size: 11px; font-weight: 700;
+    text-decoration: none;
+    transition: all 0.15s;
+    cursor: pointer;
+  }
+  .invite-btn:hover {
+    background: rgba(88,101,242,0.22);
+    border-color: var(--accent);
+  }
+  .invite-btn.disabled {
+    color: var(--muted); border-color: var(--border);
+    background: transparent; cursor: default; pointer-events: none;
+  }
+
+  /* ── Owner badge ── */
+  .owner-badge {
+    display: inline-block;
+    background: rgba(255,215,0,0.1);
+    border: 1px solid rgba(255,215,0,0.25);
+    color: #ffd700;
+    font-family: 'Space Mono', monospace;
+    font-size: 9px; font-weight: 700;
+    padding: 2px 6px; border-radius: 4px;
+    margin-left: 6px; vertical-align: middle;
+  }
+
+  /* ── Loading state ── */
+  #loading {
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 100px 0; gap: 16px;
+    color: var(--muted);
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+  }
+  .spinner {
+    width: 32px; height: 32px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Error state ── */
+  #error-box {
+    display: none;
+    background: rgba(237,66,69,0.08);
+    border: 1px solid rgba(237,66,69,0.25);
+    border-radius: 10px;
+    padding: 20px 24px;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px; color: var(--red);
+    margin-bottom: 24px;
+  }
+
+  /* ── Empty state ── */
+  .empty {
+    text-align: center; padding: 60px 0;
+    color: var(--muted);
+    font-family: 'Space Mono', monospace; font-size: 12px;
+  }
+
+  /* ── Refresh button ── */
+  .refresh-btn {
+    background: rgba(88,101,242,0.1);
+    border: 1px solid rgba(88,101,242,0.3);
+    border-radius: 8px;
+    padding: 10px 18px;
+    color: var(--accent);
+    font-family: 'Space Mono', monospace;
+    font-size: 11px; cursor: pointer;
+    transition: all 0.15s;
+  }
+  .refresh-btn:hover { background: rgba(88,101,242,0.2); }
+  .refresh-btn:disabled { opacity: 0.5; cursor: default; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">
+      <div class="logo-icon">⚡</div>
+      <div>
+        <div class="logo-text">Discord Dashboard</div>
+        <span class="logo-sub">AUTO-SYNC FROM GITHUB</span>
+      </div>
+    </div>
+    <div class="meta">
+      <span class="live-dot"></span>AUTO REFRESH 60s<br>
+      <span id="last-update">—</span><br>
+      <span id="account-name" style="color:var(--text)">—</span>
+    </div>
+  </header>
+
+  <div id="error-box"></div>
+
+  <div class="stats-bar" id="stats-bar">
+    <div class="stat-chip">Total: <span id="s-total">—</span></div>
+    <div class="stat-chip">Punya Invite: <span id="s-invite" style="color:var(--green)">—</span></div>
+    <div class="stat-chip">Owner: <span id="s-owner" style="color:var(--yellow)">—</span></div>
+    <div class="stat-chip">Members: <span id="s-members">—</span></div>
+  </div>
+
+  <div class="toolbar">
+    <input class="search-box" id="search" type="text" placeholder="🔍  Cari nama server..." />
+    <button class="filter-btn active" data-filter="all">Semua</button>
+    <button class="filter-btn" data-filter="has_invite">Ada Invite</button>
+    <button class="filter-btn" data-filter="owner">Owner</button>
+    <button class="filter-btn" data-filter="no_invite">Ga Ada Invite</button>
+    <button class="refresh-btn" id="refresh-btn">↻ Refresh</button>
+  </div>
+
+  <div id="loading"><div class="spinner"></div><span>Fetching data...</span></div>
+  <div class="grid" id="grid"></div>
+
+</div>
+
+<script>
+  // ══════════════════════════════════════════════════════════════
+  // ⚙️  KONFIGURASI — ganti sesuai repo GitHub lo
+  // ══════════════════════════════════════════════════════════════
+  const GITHUB_OWNER  = 'YOUR_GITHUB_USERNAME';   // ← ganti
+  const GITHUB_REPO   = 'YOUR_REPO_NAME';          // ← ganti
+  const GITHUB_BRANCH = 'main';                    // ← ganti kalau beda
+  const DATA_PATH     = 'data/servers.json';
+  // ══════════════════════════════════════════════════════════════
+
+  const RAW_URL = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${DATA_PATH}`;
+
+  let allServers = [];
+  let activeFilter = 'all';
+  let searchQuery = '';
+
+  // ── Fetch data dari GitHub raw ─────────────────────────────────
+  async function fetchData() {
+    const grid = document.getElementById('grid');
+    const loading = document.getElementById('loading');
+    const errBox = document.getElementById('error-box');
+
+    loading.style.display = 'flex';
+    errBox.style.display = 'none';
+
+    try {
+      // Cache bust pakai timestamp
+      const res = await fetch(RAW_URL + '?t=' + Date.now());
+      if (!res.ok) throw new Error(`HTTP ${res.status} — pastikan repo & path benar`);
+      const data = await res.json();
+
+      loading.style.display = 'none';
+      processData(data);
+    } catch (e) {
+      loading.style.display = 'none';
+      errBox.style.display = 'block';
+      errBox.textContent = '⚠ Gagal fetch: ' + e.message;
+    }
+  }
+
+  // ── Process & render ───────────────────────────────────────────
+  function processData(data) {
+    // Support 2 format: GET_SERVERS (array servers) dan SCAN_CHANNELS (object servers)
+    let servers = [];
+    if (Array.isArray(data.servers)) {
+      servers = data.servers;
+    } else if (data.servers && typeof data.servers === 'object') {
+      // SCAN_CHANNELS format
+      servers = Object.entries(data.servers).map(([name, info]) => ({
+        name,
+        id: info.server_id,
+        invite_link: info.invite_link,
+        invite_status: info.invite_status,
+        icon: null,
+        owner: false,
+        approximate_member_count: null,
+        _channel_count: info.total || 0
+      }));
+    }
+
+    allServers = servers;
+
+    // Stats
+    document.getElementById('s-total').textContent = servers.length;
+    document.getElementById('s-invite').textContent = servers.filter(s => s.invite_link).length;
+    document.getElementById('s-owner').textContent = servers.filter(s => s.owner).length;
+    const totalMembers = servers.reduce((acc, s) => acc + (s.approximate_member_count || 0), 0);
+    document.getElementById('s-members').textContent = totalMembers > 0 ? fmtNum(totalMembers) : '—';
+
+    // Meta info
+    if (data.exported_at) {
+      document.getElementById('last-update').textContent =
+        'Update: ' + new Date(data.exported_at).toLocaleString('id-ID');
+    }
+    if (data.account) {
+      const acc = data.account;
+      document.getElementById('account-name').textContent =
+        (acc.global_name || acc.username || acc) + (acc.id ? ` #${acc.id.slice(-4)}` : '');
+    } else if (data.account_id) {
+      document.getElementById('account-name').textContent = data.account || '';
+    }
+
+    renderGrid();
+  }
+
+  // ── Render filtered grid ───────────────────────────────────────
+  function renderGrid() {
+    const grid = document.getElementById('grid');
+    let list = [...allServers];
+
+    // Filter
+    if (activeFilter === 'has_invite') list = list.filter(s => s.invite_link);
+    else if (activeFilter === 'owner') list = list.filter(s => s.owner);
+    else if (activeFilter === 'no_invite') list = list.filter(s => !s.invite_link);
+
+    // Search
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      list = list.filter(s => s.name?.toLowerCase().includes(q) || s.id?.includes(q));
+    }
+
+    // Sort: owner first, then by member count
+    list.sort((a, b) => {
+      if (a.owner !== b.owner) return a.owner ? -1 : 1;
+      return (b.approximate_member_count || 0) - (a.approximate_member_count || 0);
+    });
+
+    if (list.length === 0) {
+      grid.innerHTML = '<div class="empty">Ga ada server yang cocok.</div>';
+      return;
+    }
+
+    grid.innerHTML = list.map((s, i) => buildCard(s, i)).join('');
+  }
+
+  // ── Build card HTML ────────────────────────────────────────────
+  function buildCard(s, idx) {
+    const hasInvite = !!s.invite_link;
+    const iconHtml = s.icon
+      ? `<img class="server-icon" src="${s.icon}" alt="" onerror="this.outerHTML='<div class=\\'server-icon placeholder\\'>${getInitials(s.name)}</div>'" />`
+      : `<div class="server-icon placeholder">${getInitials(s.name)}</div>`;
+
+    const ownerBadge = s.owner ? '<span class="owner-badge">OWNER</span>' : '';
+
+    const memberVal = s.approximate_member_count
+      ? `<span class="info-value green">${fmtNum(s.approximate_member_count)}</span>`
+      : `<span class="info-value muted">—</span>`;
+
+    const statusColor = {
+      vanity: 'green', ok: 'green', created: 'yellow',
+      not_perma: 'yellow', missing_permission: 'red', error: 'red'
+    };
+    const statusLabel = {
+      vanity: 'Vanity', ok: 'Permanen', created: 'Dibuat',
+      not_perma: 'Sementara', missing_permission: 'No Perm', error: 'Error'
+    };
+    const sc = statusColor[s.invite_status] || 'muted';
+    const sl = statusLabel[s.invite_status] || (hasInvite ? 'Ada' : '—');
+
+    const channelInfo = s._channel_count
+      ? `<div class="info-item"><div class="info-label">Channels</div><div class="info-value">${s._channel_count}</div></div>`
+      : `<div class="info-item"><div class="info-label">Server ID</div><div class="info-value muted" style="font-size:11px;font-family:monospace">${(s.id||'').slice(-8)}</div></div>`;
+
+    const inviteBtn = hasInvite
+      ? `<a class="invite-btn" href="${s.invite_link}" target="_blank" rel="noopener">
+           🔗 ${s.invite_link.replace('https://', '')}
+         </a>`
+      : `<div class="invite-btn disabled">⛔ Tidak ada invite</div>`;
+
+    return `
+      <div class="card" style="animation-delay:${idx * 0.04}s">
+        <div class="card-banner ${hasInvite ? '' : 'no-invite'}"></div>
+        <div class="card-body">
+          <div class="card-top">
+            ${iconHtml}
+            <div style="min-width:0">
+              <div class="server-name">${escHtml(s.name || 'Unknown')}${ownerBadge}</div>
+              <div class="server-id">${s.id || ''}</div>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="info-item">
+              <div class="info-label">Members</div>
+              ${memberVal}
+            </div>
+            <div class="info-item">
+              <div class="info-label">Invite</div>
+              <div class="info-value ${sc}">${sl}</div>
+            </div>
+            ${channelInfo}
+            <div class="info-item">
+              <div class="info-label">Status</div>
+              <div class="info-value ${s.owner ? 'yellow' : 'muted'}">${s.owner ? 'Owner' : 'Member'}</div>
+            </div>
+          </div>
+          ${inviteBtn}
+        </div>
+      </div>`;
+  }
+
+  // ── Utils ──────────────────────────────────────────────────────
+  function fmtNum(n) {
+    if (n >= 1_000_000) return (n/1_000_000).toFixed(1) + 'M';
+    if (n >= 1_000) return (n/1_000).toFixed(1) + 'K';
+    return String(n);
+  }
+  function getInitials(name) {
+    if (!name) return '?';
+    return name.replace(/[^a-zA-Z0-9 ]/g, '').trim().split(' ')
+      .slice(0, 2).map(w => w[0]).join('').toUpperCase() || name[0].toUpperCase();
+  }
+  function escHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // ── Event listeners ────────────────────────────────────────────
+  document.getElementById('search').addEventListener('input', e => {
+    searchQuery = e.target.value;
+    renderGrid();
+  });
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilter = btn.dataset.filter;
+      renderGrid();
+    });
+  });
+
+  document.getElementById('refresh-btn').addEventListener('click', () => {
+    const btn = document.getElementById('refresh-btn');
+    btn.disabled = true;
+    btn.textContent = '↻ Loading...';
+    fetchData().finally(() => {
+      btn.disabled = false;
+      btn.textContent = '↻ Refresh';
+    });
+  });
+
+  // ── Auto refresh setiap 60 detik ──────────────────────────────
+  fetchData();
+  setInterval(fetchData, 60_000);
+</script>
+</body>
+</html>
