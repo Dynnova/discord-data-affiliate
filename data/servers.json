@@ -5,7 +5,7 @@
     "global_name": "VelineVel",
     "id": "1452218055190122508"
   },
-  "total_servers": 26,
+  "total_servers": 24,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -107,15 +107,6 @@
       "invite_status": "created"
     },
     {
-      "name": "MAINTENAING",
-      "id": "1472906063631224864",
-      "owner": false,
-      "approximate_member_count": 15,
-      "icon": "https://cdn.discordapp.com/icons/1472906063631224864/00fbd16177e0c8b3601a16a555c8c412.png",
-      "invite_link": "https://discord.gg/GqMfjRh4MP",
-      "invite_status": "created"
-    },
-    {
       "name": "WIBU RISE UP",
       "id": "700299154521456680",
       "owner": false,
@@ -203,15 +194,6 @@
       "approximate_member_count": 1342,
       "icon": "https://cdn.discordapp.com/icons/1221201790876520548/f23fbdc97f52b6aff0996dfd41f2bfdb.png",
       "invite_link": "https://discord.gg/utN4V8z9Wd",
-      "invite_status": "created"
-    },
-    {
-      "name": "Thread",
-      "id": "1387688146057166849",
-      "owner": false,
-      "approximate_member_count": 24,
-      "icon": null,
-      "invite_link": "https://discord.gg/naBAFK5qRA",
       "invite_status": "created"
     },
     {
