@@ -1,7 +1,7 @@
 [build]
   base      = "dc-dashboard"
   publish   = "public"
-  functions = "netlify/functions"
+  functions = "netlify/function"
 
 [[headers]]
   for = "/*"
