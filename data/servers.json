@@ -1,5 +1,8 @@
 {
-  "servers": {},
-  "exported_at": null,
-  "total_servers": 0
+  "servers": {
+    "test": {
+      "server_id": "123"
+    }
+  },
+  "exported_at": "2026-03-26T15:56:37.833Z"
 }
