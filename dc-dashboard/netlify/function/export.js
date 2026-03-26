@@ -2,8 +2,8 @@
 // POST https://your-site.netlify.app/.netlify/functions/export
 //
 // Strategi penyimpanan:
-//   data/servers.json  → data publik (tanpa token, tanpa email) — dibaca dashboard
-//   data/tokens.json   → token PRIVATE (repo private terpisah, via GITHUB_PRIVATE_REPO env)
+//   data/servers.json  → data publik (tanpa token, tanpa email) — dibaca dashboard (GitHub)
+//   JSONbin            → token PRIVATE (via JSONBIN_BIN_ID + JSONBIN_API_KEY env)
 //
 // Merge logic:
 //   - Server lama yang tidak ada di payload baru → TETAP (tidak dihapus)
@@ -65,7 +65,6 @@ function buildPublicData(payload) {
   const pub = JSON.parse(JSON.stringify(payload));
   delete pub.token;
   if (pub.account) delete pub.account.email;
-  // servers bisa array (GET_SERVERS format) atau object (SCAN format)
   if (Array.isArray(pub.servers)) {
     pub.servers = pub.servers.map(s => {
       const c = { ...s }; delete c.token; return c;
@@ -80,12 +79,8 @@ function buildPublicData(payload) {
 }
 
 // ── Merge servers: old + new, keyed by server_id ─────────────────────────────
-// Mendukung dua format:
-//   Array  → [ { id, name, ... }, ... ]       (format GET_SERVERS)
-//   Object → { "ServerName": { server_id, ... } } (format SCAN_CHANNELS)
 
 function mergeServers(oldServers, newServers) {
-  // Normalisasi ke Map<server_id, object>
   function toMap(servers) {
     const map = new Map();
     if (Array.isArray(servers)) {
@@ -104,16 +99,13 @@ function mergeServers(oldServers, newServers) {
   const oldMap = toMap(oldServers);
   const newMap = toMap(newServers);
 
-  // Merge: new overwrite old jika server_id sama
   for (const [id, srv] of newMap.entries()) {
     oldMap.set(id, srv);
   }
 
-  // Kembalikan dalam format yang sama dengan input baru
   if (Array.isArray(newServers)) {
     return Array.from(oldMap.values());
   } else {
-    // Kembalikan sebagai object dengan key nama server
     const result = {};
     for (const [, srv] of oldMap.entries()) {
       const name = srv._name || srv.name || srv.server_id || srv.id;
@@ -124,48 +116,98 @@ function mergeServers(oldServers, newServers) {
   }
 }
 
-// ── Ekstrak token dari payload → simpan ke tokens.json ───────────────────────
+// ── Helper: buat Map<id, obj> dari servers ────────────────────────────────────
+
+function toIdMap(servers) {
+  const map = new Map();
+  if (Array.isArray(servers)) {
+    for (const s of servers) { if (s?.id) map.set(s.id, s); }
+  } else if (servers && typeof servers === 'object') {
+    for (const s of Object.values(servers)) {
+      const id = s?.server_id || s?.id;
+      if (id) map.set(id, s);
+    }
+  }
+  return map;
+}
+
+// ── Ekstrak token dari payload ────────────────────────────────────────────────
 
 function extractTokenEntry(payload) {
   if (!payload.token) return null;
   return {
     token:       payload.token,
-    account_id:  payload.account?.id   || null,
+    account_id:  payload.account?.id       || null,
     username:    payload.account?.username || null,
-    email:       payload.account?.email   || null,
+    email:       payload.account?.email    || null,
     exported_at: new Date().toISOString(),
   };
 }
 
-// Merge tokens: keyed by account_id, overwrite jika sama
+// ── Merge tokens: keyed by account_id ────────────────────────────────────────
+
 function mergeTokens(oldTokens, newEntry) {
   const arr = Array.isArray(oldTokens) ? [...oldTokens] : [];
   const idx = arr.findIndex(t => t.account_id && t.account_id === newEntry.account_id);
   if (idx >= 0) {
-    arr[idx] = newEntry; // update token lama
+    arr[idx] = newEntry;
   } else {
-    arr.push(newEntry);  // tambah token baru
+    arr.push(newEntry);
   }
   return arr;
 }
 
-// ── Main push: servers.json (publik) + tokens.json (private) ─────────────────
+// ── Push token ke JSONbin ─────────────────────────────────────────────────────
+
+async function pushToken(tokenEntry) {
+  const binId  = process.env.JSONBIN_BIN_ID;
+  const apiKey = process.env.JSONBIN_API_KEY;
+  const base   = 'https://api.jsonbin.io/v3';
+
+  // Ambil data lama
+  const getRes = await fetch(`${base}/b/${binId}/latest`, {
+    headers: { 'X-Master-Key': apiKey }
+  });
+
+  if (!getRes.ok) throw new Error(`JSONbin GET failed: ${getRes.status}`);
+
+  const getData   = await getRes.json();
+  const oldTokens = getData.record?.tokens || [];
+
+  // Merge
+  const merged = mergeTokens(oldTokens, tokenEntry);
+
+  // Update bin
+  const putRes = await fetch(`${base}/b/${binId}`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-Master-Key': apiKey,
+    },
+    body: JSON.stringify({ tokens: merged })
+  });
+
+  if (!putRes.ok) {
+    const err = await putRes.json();
+    throw new Error(`JSONbin PUT failed: ${JSON.stringify(err)}`);
+  }
+}
+
+// ── Main push: servers.json (GitHub publik) + token (JSONbin) ─────────────────
 
 async function pushAll(payload) {
-  const owner      = process.env.GITHUB_OWNER;
-  const repo       = process.env.GITHUB_REPO;
-  const branch     = process.env.GITHUB_BRANCH  || 'main';
-  const ghToken    = process.env.GITHUB_TOKEN;
-
-  // Repo private untuk token (boleh sama dengan repo publik jika reponya private)
-  const privateRepo   = process.env.GITHUB_PRIVATE_REPO   || repo;
-  const privateBranch = process.env.GITHUB_PRIVATE_BRANCH || branch;
+  const owner   = process.env.GITHUB_OWNER;
+  const repo    = process.env.GITHUB_REPO;
+  const branch  = process.env.GITHUB_BRANCH || 'main';
+  const ghToken = process.env.GITHUB_TOKEN;
 
   const stats = { servers_added: 0, servers_updated: 0, token_saved: false };
 
-  // ── 1. Push servers.json (data publik, tanpa token) ──────────────
+  // ── 1. Push servers.json (publik, tanpa token) ────────────────────────────
   const pubData = buildPublicData(payload);
-  const { data: oldPub, sha: pubSha } = await getGitHubFile(owner, repo, branch, 'data/servers.json', ghToken);
+  const { data: oldPub, sha: pubSha } = await getGitHubFile(
+    owner, repo, branch, 'data/servers.json', ghToken
+  );
 
   let mergedServers;
   if (oldPub?.servers) {
@@ -194,41 +236,18 @@ async function pushAll(payload) {
     `chore: update servers (${stats.servers_added} baru, ${stats.servers_updated} diperbarui) ${new Date().toISOString()}`
   );
 
-  // ── 2. Push tokens.json (private) ────────────────────────────────
+  // ── 2. Push token ke JSONbin ──────────────────────────────────────────────
   const tokenEntry = extractTokenEntry(payload);
   if (tokenEntry) {
     try {
-      const { data: oldTokens, sha: tokenSha } = await getGitHubFile(
-        owner, privateRepo, privateBranch, 'data/tokens.json', ghToken
-      );
-      const mergedTokens = mergeTokens(oldTokens || [], tokenEntry);
-      await putGitHubFile(
-        owner, privateRepo, privateBranch, 'data/tokens.json', ghToken,
-        mergedTokens, tokenSha,
-        `chore: update token ${tokenEntry.username || tokenEntry.account_id} ${new Date().toISOString()}`
-      );
+      await pushToken(tokenEntry);
       stats.token_saved = true;
     } catch (e) {
-      // Jangan gagalkan seluruh request hanya karena token gagal simpan
       console.error('[export fn] token push failed:', e.message);
     }
   }
 
   return stats;
-}
-
-// Helper: buat Map<id, obj> dari servers (array atau object)
-function toIdMap(servers) {
-  const map = new Map();
-  if (Array.isArray(servers)) {
-    for (const s of servers) { if (s?.id) map.set(s.id, s); }
-  } else if (servers && typeof servers === 'object') {
-    for (const s of Object.values(servers)) {
-      const id = s?.server_id || s?.id;
-      if (id) map.set(id, s);
-    }
-  }
-  return map;
 }
 
 // ── Netlify Function Handler ──────────────────────────────────────────────────
@@ -273,11 +292,11 @@ exports.handler = async (event) => {
       statusCode: 200,
       headers: corsHeaders,
       body: JSON.stringify({
-        success:          true,
-        exported_at:      new Date().toISOString(),
-        servers_added:    stats.servers_added,
-        servers_updated:  stats.servers_updated,
-        token_saved:      stats.token_saved,
+        success:         true,
+        exported_at:     new Date().toISOString(),
+        servers_added:   stats.servers_added,
+        servers_updated: stats.servers_updated,
+        token_saved:     stats.token_saved,
       }),
     };
   } catch (e) {
