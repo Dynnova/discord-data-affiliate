@@ -116,15 +116,6 @@
       "invite_status": "created"
     },
     {
-      "name": "Thread",
-      "id": "1387688146057166849",
-      "owner": false,
-      "approximate_member_count": 24,
-      "icon": null,
-      "invite_link": "https://discord.gg/naBAFK5qRA",
-      "invite_status": "created"
-    },
-    {
       "name": "PARADE EDITOR",
       "id": "1426840408016687207",
       "owner": false,
@@ -167,15 +158,6 @@
       "approximate_member_count": 19,
       "icon": "https://cdn.discordapp.com/icons/1469296442157039789/0cc5d745c5894b88794de73fabd635d8.png",
       "invite_link": "https://discord.gg/3cKKncdCXS",
-      "invite_status": "created"
-    },
-    {
-      "name": "MAINTENAING",
-      "id": "1472906063631224864",
-      "owner": false,
-      "approximate_member_count": 15,
-      "icon": "https://cdn.discordapp.com/icons/1472906063631224864/00fbd16177e0c8b3601a16a555c8c412.png",
-      "invite_link": "https://discord.gg/GqMfjRh4MP",
       "invite_status": "created"
     }
   ]
