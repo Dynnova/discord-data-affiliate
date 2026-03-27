@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-03-26T18:56:23.455Z",
+  "exported_at": "2026-03-27T04:46:46.638Z",
   "account": {
-    "username": "noviahorton",
-    "global_name": "NoviaHorton",
-    "id": "1463951235823439924"
+    "username": "lunettaave",
+    "global_name": "LunettaAve",
+    "id": "1464266253731496193"
   },
-  "total_servers": 31,
+  "total_servers": 51,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -20,10 +20,10 @@
       "name": "The Faproom",
       "id": "890900169539862568",
       "owner": false,
-      "approximate_member_count": 83220,
+      "approximate_member_count": 83175,
       "icon": "https://cdn.discordapp.com/icons/890900169539862568/a_d0d281d5426d252873669dd81e2a839c.png",
-      "invite_link": "https://discord.gg/du73wanAXT",
-      "invite_status": "created"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "SIMP World",
@@ -56,10 +56,10 @@
       "name": "Mommy's Strip Club🥂✨",
       "id": "1171386784014401586",
       "owner": false,
-      "approximate_member_count": 72034,
+      "approximate_member_count": 72065,
       "icon": "https://cdn.discordapp.com/icons/1171386784014401586/667c690788737b65cc7511fdd34e25b2.png",
-      "invite_link": "https://discord.gg/nsfwservers",
-      "invite_status": "vanity"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "The Celestials",
@@ -103,8 +103,8 @@
       "owner": false,
       "approximate_member_count": 1114,
       "icon": "https://cdn.discordapp.com/icons/1460163239378681942/dd554e9c8b9d2fdd344d25fc8c79e083.png",
-      "invite_link": "https://discord.gg/ZAF455vFPg",
-      "invite_status": "created"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "WIBU RISE UP",
@@ -220,8 +220,8 @@
       "owner": false,
       "approximate_member_count": 19,
       "icon": "https://cdn.discordapp.com/icons/1469296442157039789/0cc5d745c5894b88794de73fabd635d8.png",
-      "invite_link": "https://discord.gg/3cKKncdCXS",
-      "invite_status": "created"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "Tenshi no Sekai",
@@ -285,6 +285,186 @@
       "icon": "https://cdn.discordapp.com/icons/1467181712483029086/e45b823940511f411bcb8db51ba91f09.png",
       "invite_link": "https://discord.gg/sKyVXdH5xw",
       "invite_status": "created"
+    },
+    {
+      "name": "ｓｅｋｔｏｒ  ｇａｂｕｔ0.2",
+      "id": "682732064537313348",
+      "owner": false,
+      "approximate_member_count": 124,
+      "icon": "https://cdn.discordapp.com/icons/682732064537313348/b354cc839029ea4fffff2b765c03e535.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Anime Indonesia TV",
+      "id": "702158137146474520",
+      "owner": false,
+      "approximate_member_count": 2577,
+      "icon": "https://cdn.discordapp.com/icons/702158137146474520/a_e151d74220ba4c2e1ed401eb23a55be9.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "ANOTHER WORLD",
+      "id": "767660738403106856",
+      "owner": false,
+      "approximate_member_count": 2005,
+      "icon": "https://cdn.discordapp.com/icons/767660738403106856/b9cefdd3df144e8394b7dff15a1585f9.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "id/manga",
+      "id": "776765103643164702",
+      "owner": false,
+      "approximate_member_count": 978,
+      "icon": "https://cdn.discordapp.com/icons/776765103643164702/83748521c61147555eb36ab1ad584b38.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Weeb's Café Indonesia",
+      "id": "798049959810957323",
+      "owner": false,
+      "approximate_member_count": 1140,
+      "icon": "https://cdn.discordapp.com/icons/798049959810957323/6c1fcc01abca7be8317bca2f7a2041f0.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "DOPAMINE",
+      "id": "806837003483742251",
+      "owner": false,
+      "approximate_member_count": 632,
+      "icon": "https://cdn.discordapp.com/icons/806837003483742251/ef9c78cd3a2b639261a9042c4b8b5432.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "ACHERON,BestWorld",
+      "id": "844503234495381505",
+      "owner": false,
+      "approximate_member_count": 1588,
+      "icon": "https://cdn.discordapp.com/icons/844503234495381505/a_53c4818ce2dde87adb2962f3e644607f.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Pandemonium Central",
+      "id": "848891043805134858",
+      "owner": false,
+      "approximate_member_count": 886,
+      "icon": "https://cdn.discordapp.com/icons/848891043805134858/d568b607cb05cd916e3ddff750110a6e.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Indonesian Fiction Debate",
+      "id": "905467075026362428",
+      "owner": false,
+      "approximate_member_count": 5020,
+      "icon": "https://cdn.discordapp.com/icons/905467075026362428/a42d8228f7eb70a750ccf234328b06af.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Baboo scans",
+      "id": "915780692300943400",
+      "owner": false,
+      "approximate_member_count": 86,
+      "icon": "https://cdn.discordapp.com/icons/915780692300943400/76649aaed642823d9519649e3aca6f2b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "The K Empire👑",
+      "id": "944440125327298610",
+      "owner": false,
+      "approximate_member_count": 20123,
+      "icon": "https://cdn.discordapp.com/icons/944440125327298610/7d04d41462aad1fff104ed5980e1ad73.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "PTSD Office",
+      "id": "946617627294461953",
+      "owner": false,
+      "approximate_member_count": 1244,
+      "icon": "https://cdn.discordapp.com/icons/946617627294461953/7187f9c38a3bd07c09e7e7fa45d409c2.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Wangshu Inn",
+      "id": "963334810712039484",
+      "owner": false,
+      "approximate_member_count": 1638,
+      "icon": "https://cdn.discordapp.com/icons/963334810712039484/0dd83e32366ddba5acdfa5468eb7c2ad.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Serenity",
+      "id": "1066975606698430594",
+      "owner": false,
+      "approximate_member_count": 4143,
+      "icon": "https://cdn.discordapp.com/icons/1066975606698430594/4b8720828c0282eadcb291a9f1dcf4aa.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "SAKURA EMPIRE COMEBACK",
+      "id": "1081523136773754940",
+      "owner": false,
+      "approximate_member_count": 2120,
+      "icon": "https://cdn.discordapp.com/icons/1081523136773754940/6a1abb3b6a02f73243e2ab99a952b70d.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "𝐉𝐮𝐬𝐭𝐍𝐞𝐰𝐛𝐢𝐞",
+      "id": "1098942313457262724",
+      "owner": false,
+      "approximate_member_count": 263,
+      "icon": "https://cdn.discordapp.com/icons/1098942313457262724/b661a400c558f2cd31436f1f564a020c.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "NEKONIME.IDN",
+      "id": "1119607480834588714",
+      "owner": false,
+      "approximate_member_count": 1206,
+      "icon": "https://cdn.discordapp.com/icons/1119607480834588714/a_f3fbfb2f3322453eb8f2982752df5c9b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Mager Translation",
+      "id": "1148085027851210914",
+      "owner": false,
+      "approximate_member_count": 388,
+      "icon": "https://cdn.discordapp.com/icons/1148085027851210914/e318781eebb08b805a776bad9cafc89c.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Caffeinetown! ☕",
+      "id": "1180535571530141717",
+      "owner": false,
+      "approximate_member_count": 291,
+      "icon": "https://cdn.discordapp.com/icons/1180535571530141717/403b52c53a76cfbfc41d3dd1bf740235.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "MAINTENAING",
+      "id": "1472906063631224864",
+      "owner": false,
+      "approximate_member_count": 15,
+      "icon": "https://cdn.discordapp.com/icons/1472906063631224864/00fbd16177e0c8b3601a16a555c8c412.png",
+      "invite_link": null,
+      "invite_status": "skipped"
     }
   ]
 }
