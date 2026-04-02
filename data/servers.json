@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-04-02T18:23:02.326Z",
+  "exported_at": "2026-04-02T18:27:48.016Z",
   "account": {
-    "username": "rosemaryblured",
-    "global_name": "Rosemary",
-    "id": "1463959757101600973"
+    "username": "saannah_",
+    "global_name": "Cordelia",
+    "id": "1451921430831697941"
   },
-  "total_servers": 61,
+  "total_servers": 64,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -20,7 +20,7 @@
       "name": "The Faproom",
       "id": "890900169539862568",
       "owner": false,
-      "approximate_member_count": 82522,
+      "approximate_member_count": 82523,
       "icon": "https://cdn.discordapp.com/icons/890900169539862568/a_d0d281d5426d252873669dd81e2a839c.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -506,7 +506,7 @@
       "name": "Thread",
       "id": "1387688146057166849",
       "owner": false,
-      "approximate_member_count": 27,
+      "approximate_member_count": 28,
       "icon": null,
       "invite_link": null,
       "invite_status": "skipped"
@@ -553,6 +553,33 @@
       "owner": false,
       "approximate_member_count": 225,
       "icon": "https://cdn.discordapp.com/icons/1469154582566535329/30e3e96bd237ef20d9cb4d791fcdde4f.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "The Lost Nemo!",
+      "id": "571992648190263317",
+      "owner": false,
+      "approximate_member_count": 653303,
+      "icon": "https://cdn.discordapp.com/icons/571992648190263317/a_9febb694fea75e1039aeefeed4aacca9.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Lily Paradise",
+      "id": "1417116316187361310",
+      "owner": false,
+      "approximate_member_count": 32392,
+      "icon": "https://cdn.discordapp.com/icons/1417116316187361310/c36cbbae299d6f26c7101e264c3ffa4d.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "sannagh's server",
+      "id": "1451933989513461804",
+      "owner": true,
+      "approximate_member_count": 1,
+      "icon": null,
       "invite_link": null,
       "invite_status": "skipped"
     }
