@@ -1,26 +1,26 @@
 {
-  "exported_at": "2026-04-02T14:53:34.884Z",
+  "exported_at": "2026-04-02T16:44:07.171Z",
   "account": {
-    "username": "darrrrios",
-    "global_name": "Param",
-    "id": "1464270459158790174"
+    "username": "rosemaryblured",
+    "global_name": "Rosemary",
+    "id": "1463959757101600973"
   },
-  "total_servers": 60,
+  "total_servers": 61,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
       "id": "817762113752793108",
       "owner": false,
-      "approximate_member_count": 1132,
+      "approximate_member_count": 1133,
       "icon": "https://cdn.discordapp.com/icons/817762113752793108/a_0c415eedaea750cdc31fcc269fe4586c.png",
       "invite_link": null,
-      "invite_status": "missing_permission"
+      "invite_status": "skipped"
     },
     {
       "name": "The Faproom",
       "id": "890900169539862568",
       "owner": false,
-      "approximate_member_count": 82543,
+      "approximate_member_count": 82528,
       "icon": "https://cdn.discordapp.com/icons/890900169539862568/a_d0d281d5426d252873669dd81e2a839c.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -29,34 +29,34 @@
       "name": "SIMP World",
       "id": "932780602967601213",
       "owner": false,
-      "approximate_member_count": 799,
+      "approximate_member_count": 798,
       "icon": "https://cdn.discordapp.com/icons/932780602967601213/9c161ccfc57bf8059472458426a1e6f8.png",
       "invite_link": null,
-      "invite_status": "missing_permission"
+      "invite_status": "skipped"
     },
     {
       "name": "The Journey of Elaina Indonesia",
       "id": "960205173391777912",
       "owner": false,
-      "approximate_member_count": 486,
+      "approximate_member_count": 484,
       "icon": "https://cdn.discordapp.com/icons/960205173391777912/1fabc0d3211b41196ce73b5d402147ac.png",
       "invite_link": null,
-      "invite_status": "missing_permission"
+      "invite_status": "skipped"
     },
     {
       "name": "[Vakum] Komikrealm Kingdom",
       "id": "1081494231111180298",
       "owner": false,
-      "approximate_member_count": 456,
+      "approximate_member_count": 452,
       "icon": "https://cdn.discordapp.com/icons/1081494231111180298/987e78dadbf331bf1db4bc5591b9d641.png",
-      "invite_link": "https://discord.gg/WUt5AFGj3v",
-      "invite_status": "created"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "Mommy's Strip Club🥂✨",
       "id": "1171386784014401586",
       "owner": false,
-      "approximate_member_count": 72065,
+      "approximate_member_count": 72429,
       "icon": "https://cdn.discordapp.com/icons/1171386784014401586/667c690788737b65cc7511fdd34e25b2.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -65,37 +65,37 @@
       "name": "The Celestials",
       "id": "1207725577952301116",
       "owner": false,
-      "approximate_member_count": 556,
+      "approximate_member_count": 558,
       "icon": "https://cdn.discordapp.com/icons/1207725577952301116/60cd12bc58fc0f89217c8bf714f9187d.png",
-      "invite_link": "https://discord.gg/kSn9f9DY9S",
-      "invite_status": "created"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "⭐🔞 | NSFW HUB",
       "id": "1386266872550260746",
       "owner": false,
-      "approximate_member_count": 24460,
+      "approximate_member_count": 25280,
       "icon": "https://cdn.discordapp.com/icons/1386266872550260746/7a88e030595cc2c10495342ce96faff5.png",
-      "invite_link": "https://discord.gg/PYTMQyaPRa",
-      "invite_status": "created"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "Grub NSFW",
       "id": "1401747093856456804",
       "owner": false,
-      "approximate_member_count": 399,
+      "approximate_member_count": 387,
       "icon": "https://cdn.discordapp.com/icons/1401747093856456804/cb65a980b3e85fe8878e542f972df7a9.png",
       "invite_link": null,
-      "invite_status": "missing_permission"
+      "invite_status": "skipped"
     },
     {
       "name": "PARADE EDITOR",
       "id": "1426840408016687207",
       "owner": false,
-      "approximate_member_count": 70,
+      "approximate_member_count": 67,
       "icon": "https://cdn.discordapp.com/icons/1426840408016687207/577d26c2ab5759b286563a84b258a397.png",
-      "invite_link": "https://discord.gg/UDdfsTrJbt",
-      "invite_status": "created"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "Midnight café",
@@ -218,7 +218,7 @@
       "name": "Sensual Realm",
       "id": "1469296442157039789",
       "owner": false,
-      "approximate_member_count": 30,
+      "approximate_member_count": 32,
       "icon": "https://cdn.discordapp.com/icons/1469296442157039789/0cc5d745c5894b88794de73fabd635d8.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -506,7 +506,7 @@
       "name": "Thread",
       "id": "1387688146057166849",
       "owner": false,
-      "approximate_member_count": 26,
+      "approximate_member_count": 27,
       "icon": null,
       "invite_link": null,
       "invite_status": "skipped"
@@ -544,6 +544,15 @@
       "owner": false,
       "approximate_member_count": 2065,
       "icon": "https://cdn.discordapp.com/icons/1483967626626597045/a73c2215a6aaa08092e70966ed8a58c4.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "GrubNSFW 2.0",
+      "id": "1469154582566535329",
+      "owner": false,
+      "approximate_member_count": 225,
+      "icon": "https://cdn.discordapp.com/icons/1469154582566535329/30e3e96bd237ef20d9cb4d791fcdde4f.png",
       "invite_link": null,
       "invite_status": "skipped"
     }
