@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-03-27T04:46:46.638Z",
+  "exported_at": "2026-04-02T14:53:34.884Z",
   "account": {
-    "username": "lunettaave",
-    "global_name": "LunettaAve",
-    "id": "1464266253731496193"
+    "username": "darrrrios",
+    "global_name": "Param",
+    "id": "1464270459158790174"
   },
-  "total_servers": 51,
+  "total_servers": 60,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -20,7 +20,7 @@
       "name": "The Faproom",
       "id": "890900169539862568",
       "owner": false,
-      "approximate_member_count": 83175,
+      "approximate_member_count": 82543,
       "icon": "https://cdn.discordapp.com/icons/890900169539862568/a_d0d281d5426d252873669dd81e2a839c.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -101,7 +101,7 @@
       "name": "Midnight café",
       "id": "1460163239378681942",
       "owner": false,
-      "approximate_member_count": 1114,
+      "approximate_member_count": 1116,
       "icon": "https://cdn.discordapp.com/icons/1460163239378681942/dd554e9c8b9d2fdd344d25fc8c79e083.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -218,7 +218,7 @@
       "name": "Sensual Realm",
       "id": "1469296442157039789",
       "owner": false,
-      "approximate_member_count": 19,
+      "approximate_member_count": 30,
       "icon": "https://cdn.discordapp.com/icons/1469296442157039789/0cc5d745c5894b88794de73fabd635d8.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -461,8 +461,89 @@
       "name": "MAINTENAING",
       "id": "1472906063631224864",
       "owner": false,
-      "approximate_member_count": 15,
+      "approximate_member_count": 16,
       "icon": "https://cdn.discordapp.com/icons/1472906063631224864/00fbd16177e0c8b3601a16a555c8c412.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "nyawitzone: menolak padam",
+      "id": "587547401749790762",
+      "owner": false,
+      "approximate_member_count": 70442,
+      "icon": "https://cdn.discordapp.com/icons/587547401749790762/9ef22ffc63c08afcd87fe66494ca0c5c.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Hentailand",
+      "id": "1155217173753638922",
+      "owner": false,
+      "approximate_member_count": 84740,
+      "icon": "https://cdn.discordapp.com/icons/1155217173753638922/a_3c08ff962aed67a11a6614e3c590be28.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Anathema",
+      "id": "1160745922364444792",
+      "owner": false,
+      "approximate_member_count": 137090,
+      "icon": "https://cdn.discordapp.com/icons/1160745922364444792/6aa892a77430ffa867586d0c5678beb8.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "KAPAL LEWD",
+      "id": "1265318748949319711",
+      "owner": false,
+      "approximate_member_count": 62356,
+      "icon": "https://cdn.discordapp.com/icons/1265318748949319711/15c37b700276a044fbb53067305c7cca.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Thread",
+      "id": "1387688146057166849",
+      "owner": false,
+      "approximate_member_count": 26,
+      "icon": null,
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Sekolah Nakal",
+      "id": "1402615068818145401",
+      "owner": false,
+      "approximate_member_count": 29950,
+      "icon": "https://cdn.discordapp.com/icons/1402615068818145401/a_f656453854a7697ad94ebd4cc0b2675b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "ʀᴇᴍᴀᴊᴀ ɴᴀᴋᴀʟ",
+      "id": "1413619631469498428",
+      "owner": false,
+      "approximate_member_count": 1323,
+      "icon": "https://cdn.discordapp.com/icons/1413619631469498428/b9f047b68f07a9bbf81e3c30396af679.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "SOBAT NAFSU",
+      "id": "1476577046464434308",
+      "owner": false,
+      "approximate_member_count": 5501,
+      "icon": "https://cdn.discordapp.com/icons/1476577046464434308/ac543b631fc4db59259cc5f4fcf1f539.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "High Sin Council",
+      "id": "1483967626626597045",
+      "owner": false,
+      "approximate_member_count": 2065,
+      "icon": "https://cdn.discordapp.com/icons/1483967626626597045/a73c2215a6aaa08092e70966ed8a58c4.png",
       "invite_link": null,
       "invite_status": "skipped"
     }
