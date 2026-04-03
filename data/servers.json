@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-04-03T09:00:07.221Z",
+  "exported_at": "2026-04-03T09:20:03.797Z",
   "account": {
-    "username": "lyssandrachasandra",
-    "global_name": "Lyssandra Chasandra",
-    "id": "745653717373550664"
+    "username": "elowynbelle_76218",
+    "global_name": "ElowynBelle",
+    "id": "1464267448319606847"
   },
-  "total_servers": 97,
+  "total_servers": 98,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -20,7 +20,7 @@
       "name": "The Faproom",
       "id": "890900169539862568",
       "owner": false,
-      "approximate_member_count": 82464,
+      "approximate_member_count": 82462,
       "icon": "https://cdn.discordapp.com/icons/890900169539862568/a_d0d281d5426d252873669dd81e2a839c.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -877,6 +877,15 @@
       "owner": false,
       "approximate_member_count": 1194,
       "icon": "https://cdn.discordapp.com/icons/1460198353647309029/72df1cde8466fa04c37a71d254f31497.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Toadman's server",
+      "id": "1466124425849081971",
+      "owner": false,
+      "approximate_member_count": 5,
+      "icon": null,
       "invite_link": null,
       "invite_status": "skipped"
     }
