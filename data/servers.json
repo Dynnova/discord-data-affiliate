@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-04-04T15:50:27.477Z",
+  "exported_at": "2026-04-04T15:55:39.356Z",
   "account": {
-    "username": "lunettaave",
-    "global_name": "LunettaAve",
-    "id": "1464266253731496193"
+    "username": "saannah_",
+    "global_name": "Cordelia",
+    "id": "1451921430831697941"
   },
   "total_servers": 98,
   "servers": [
@@ -506,7 +506,7 @@
       "name": "Thread",
       "id": "1387688146057166849",
       "owner": false,
-      "approximate_member_count": 28,
+      "approximate_member_count": 27,
       "icon": null,
       "invite_link": null,
       "invite_status": "skipped"
@@ -557,10 +557,10 @@
       "invite_status": "skipped"
     },
     {
-      "name": "The Lost Nemo!",
+      "name": "The Lost Nemo! 🐰",
       "id": "571992648190263317",
       "owner": false,
-      "approximate_member_count": 653303,
+      "approximate_member_count": 653732,
       "icon": "https://cdn.discordapp.com/icons/571992648190263317/a_9febb694fea75e1039aeefeed4aacca9.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -569,7 +569,7 @@
       "name": "Lily Paradise",
       "id": "1417116316187361310",
       "owner": false,
-      "approximate_member_count": 32392,
+      "approximate_member_count": 32290,
       "icon": "https://cdn.discordapp.com/icons/1417116316187361310/c36cbbae299d6f26c7101e264c3ffa4d.png",
       "invite_link": null,
       "invite_status": "skipped"
