@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-04-04T16:40:12.947Z",
+  "exported_at": "2026-04-06T07:08:26.183Z",
   "account": {
-    "username": "rosemaryblured",
-    "global_name": "Rosemary",
-    "id": "1463959757101600973"
+    "username": "noviahorton",
+    "global_name": "NoviaHorton",
+    "id": "1463951235823439924"
   },
   "total_servers": 112,
   "servers": [
@@ -20,7 +20,7 @@
       "name": "The Faproom",
       "id": "890900169539862568",
       "owner": false,
-      "approximate_member_count": 82343,
+      "approximate_member_count": 82198,
       "icon": "https://cdn.discordapp.com/icons/890900169539862568/a_d0d281d5426d252873669dd81e2a839c.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -56,7 +56,7 @@
       "name": "Mommy's Strip Club🥂✨",
       "id": "1171386784014401586",
       "owner": false,
-      "approximate_member_count": 72566,
+      "approximate_member_count": 72712,
       "icon": "https://cdn.discordapp.com/icons/1171386784014401586/667c690788737b65cc7511fdd34e25b2.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -74,7 +74,7 @@
       "name": "⭐🔞 | NSFW HUB",
       "id": "1386266872550260746",
       "owner": false,
-      "approximate_member_count": 25484,
+      "approximate_member_count": 25589,
       "icon": "https://cdn.discordapp.com/icons/1386266872550260746/7a88e030595cc2c10495342ce96faff5.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -101,7 +101,7 @@
       "name": "Midnight café",
       "id": "1460163239378681942",
       "owner": false,
-      "approximate_member_count": 1113,
+      "approximate_member_count": 1111,
       "icon": "https://cdn.discordapp.com/icons/1460163239378681942/dd554e9c8b9d2fdd344d25fc8c79e083.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -224,13 +224,13 @@
       "invite_status": "skipped"
     },
     {
-      "name": "Tenshi no Sekai",
+      "name": "Saiban no Tenshi",
       "id": "596651593407922215",
       "owner": false,
-      "approximate_member_count": 3046,
-      "icon": "https://cdn.discordapp.com/icons/596651593407922215/ed9758cb66fddd505326ae5eedcedfa0.png",
-      "invite_link": "https://discord.gg/tenshi-id-596651593407922215",
-      "invite_status": "vanity"
+      "approximate_member_count": 3037,
+      "icon": "https://cdn.discordapp.com/icons/596651593407922215/cd91650feff85c4cde1fce0b23252841.png",
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "Tidak Bundar",
@@ -238,17 +238,17 @@
       "owner": false,
       "approximate_member_count": 90,
       "icon": "https://cdn.discordapp.com/icons/657945765448122397/e432ba952074475e34a0ab2ae643a431.png",
-      "invite_link": "https://discord.gg/MAGBpGNKDR",
-      "invite_status": "created"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "Hujan Kata ☔",
       "id": "869945556343066734",
       "owner": false,
-      "approximate_member_count": 4134,
+      "approximate_member_count": 4185,
       "icon": "https://cdn.discordapp.com/icons/869945556343066734/04fbb6d975a66675e60ab2197ebf8964.png",
-      "invite_link": "https://discord.gg/hujan-kata-869945556343066734",
-      "invite_status": "vanity"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "Sans Server",
@@ -257,25 +257,25 @@
       "approximate_member_count": 275,
       "icon": "https://cdn.discordapp.com/icons/898398855681441803/a_313ad34946a37ef9466cac55ff3db7c0.png",
       "invite_link": null,
-      "invite_status": "missing_permission"
+      "invite_status": "skipped"
     },
     {
-      "name": "Kabinara Desu",
+      "name": "VELVIXIE SCANS",
       "id": "1133548901568352359",
       "owner": false,
-      "approximate_member_count": 445,
-      "icon": "https://cdn.discordapp.com/icons/1133548901568352359/ecda19a2fb960b39d708ef84b3f06e24.png",
-      "invite_link": "https://discord.gg/Rx2ZbYXmBB",
-      "invite_status": "created"
+      "approximate_member_count": 444,
+      "icon": "https://cdn.discordapp.com/icons/1133548901568352359/ee4cbad1cd92283fbb5adfd2e07b44fa.png",
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "Kaze x Sley (Serenity)",
       "id": "1353993762539307111",
       "owner": false,
-      "approximate_member_count": 2062,
+      "approximate_member_count": 2098,
       "icon": "https://cdn.discordapp.com/icons/1353993762539307111/df8857fc8233d401b94c422f66a455b0.png",
-      "invite_link": "https://discord.gg/kaze-x-sley-serenity-1353993762539307111",
-      "invite_status": "vanity"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "Midnight café\\Motel",
@@ -283,8 +283,8 @@
       "owner": false,
       "approximate_member_count": 30,
       "icon": "https://cdn.discordapp.com/icons/1467181712483029086/e45b823940511f411bcb8db51ba91f09.png",
-      "invite_link": "https://discord.gg/sKyVXdH5xw",
-      "invite_status": "created"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "ｓｅｋｔｏｒ  ｇａｂｕｔ0.2",
