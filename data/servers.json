@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-04-06T08:11:43.435Z",
+  "exported_at": "2026-04-06T16:41:45.955Z",
   "account": {
-    "username": "nyxora0473",
-    "global_name": "Nyxora",
-    "id": "1461677448105169030"
+    "username": "twelvepointseven",
+    "global_name": "Daniel :D",
+    "id": "1370203738572324894"
   },
-  "total_servers": 180,
+  "total_servers": 243,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -101,7 +101,7 @@
       "name": "Midnight café",
       "id": "1460163239378681942",
       "owner": false,
-      "approximate_member_count": 1111,
+      "approximate_member_count": 1104,
       "icon": "https://cdn.discordapp.com/icons/1460163239378681942/dd554e9c8b9d2fdd344d25fc8c79e083.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -1622,8 +1622,575 @@
       "name": "PIMPTOPIA | PIMP TAG",
       "id": "1452566918967070754",
       "owner": false,
-      "approximate_member_count": 38674,
+      "approximate_member_count": 38715,
       "icon": "https://cdn.discordapp.com/icons/1452566918967070754/520971679a8a07e1bf8f02871b4928b1.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "halftime girls",
+      "id": "518789639470055464",
+      "owner": false,
+      "approximate_member_count": 8101,
+      "icon": "https://cdn.discordapp.com/icons/518789639470055464/72dc6aa38d58783fc75e3e38c407aacc.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "AuthenticateMe",
+      "id": "708827710272569416",
+      "owner": false,
+      "approximate_member_count": 44191,
+      "icon": "https://cdn.discordapp.com/icons/708827710272569416/8b3e5fadc281882755febb998d89b69d.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Hunger Games Revival",
+      "id": "735035846822199307",
+      "owner": false,
+      "approximate_member_count": 40,
+      "icon": "https://cdn.discordapp.com/icons/735035846822199307/ffc1f1aecc548033df35a47259bfc1ad.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "The Athenaeum",
+      "id": "809176815456223242",
+      "owner": false,
+      "approximate_member_count": 817,
+      "icon": "https://cdn.discordapp.com/icons/809176815456223242/6f52f8cdb4124dc17bdccce54dcb4755.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "ZO ぞ",
+      "id": "860321774717894676",
+      "owner": false,
+      "approximate_member_count": 152031,
+      "icon": "https://cdn.discordapp.com/icons/860321774717894676/3d5e3007183dfa3509407c8c33c0d833.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "xYesu Mega Mansion",
+      "id": "945876221294694410",
+      "owner": false,
+      "approximate_member_count": 56219,
+      "icon": "https://cdn.discordapp.com/icons/945876221294694410/a_ab203b6a215de804a00dc6d16fdd3b19.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Whiteout Survival",
+      "id": "973157270554804264",
+      "owner": false,
+      "approximate_member_count": 1547662,
+      "icon": "https://cdn.discordapp.com/icons/973157270554804264/348e8cddfe9f32fbc04e2f312b8a07cb.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Guilds Tags | 41 500+ Tags",
+      "id": "1018259882698358855",
+      "owner": false,
+      "approximate_member_count": 244243,
+      "icon": "https://cdn.discordapp.com/icons/1018259882698358855/1d86790145cf3eb0f4c2bec592ce10a2.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Layla",
+      "id": "1127838352016678932",
+      "owner": false,
+      "approximate_member_count": 2751,
+      "icon": "https://cdn.discordapp.com/icons/1127838352016678932/0032e29375028c914470c428658ddbd0.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "NSFRandom",
+      "id": "1141233233275662336",
+      "owner": false,
+      "approximate_member_count": 8889,
+      "icon": "https://cdn.discordapp.com/icons/1141233233275662336/a_a4a9b02df006a4167d2d89209a2fe327.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Gooners",
+      "id": "1152465738548908073",
+      "owner": false,
+      "approximate_member_count": 994,
+      "icon": "https://cdn.discordapp.com/icons/1152465738548908073/abd76f4486fba698816dd355a5fb1321.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Sophie",
+      "id": "1171458678273093664",
+      "owner": false,
+      "approximate_member_count": 270146,
+      "icon": "https://cdn.discordapp.com/icons/1171458678273093664/d9f06d7fb25a0aaa134fe0ff37623f57.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "𑣲 ࣪ ˖ 烏野 ࣪ ／sjsalbum ﹒ 𝜗ৎ ﹒ ࣪tags　 ࣪ scl　 ࣪ dcr  ♡˖  ࣪",
+      "id": "1218510689954566184",
+      "owner": false,
+      "approximate_member_count": 1857,
+      "icon": "https://cdn.discordapp.com/icons/1218510689954566184/e2194a1044e9ebe6155ec5779aa70864.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Dark Web Emojis",
+      "id": "1226151457976225823",
+      "owner": false,
+      "approximate_member_count": 2982,
+      "icon": "https://cdn.discordapp.com/icons/1226151457976225823/a_43f15ce1284a6a022f73d23a5f7a9c84.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Sauce Star",
+      "id": "1235239631876915220",
+      "owner": false,
+      "approximate_member_count": 67722,
+      "icon": "https://cdn.discordapp.com/icons/1235239631876915220/afade5100c681410b10005fa14c44aeb.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Japanese",
+      "id": "1235937951179866113",
+      "owner": false,
+      "approximate_member_count": 60528,
+      "icon": "https://cdn.discordapp.com/icons/1235937951179866113/5424424162663a324a87fc6c30e04ded.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Free Drops",
+      "id": "1235948552581025792",
+      "owner": false,
+      "approximate_member_count": 69560,
+      "icon": "https://cdn.discordapp.com/icons/1235948552581025792/a511b0994dd107a0a63c73e748eab4a5.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "The Tribute Cove (Hentai)",
+      "id": "1241761350712164473",
+      "owner": false,
+      "approximate_member_count": 7969,
+      "icon": "https://cdn.discordapp.com/icons/1241761350712164473/e7e73e35d9d414a6615c3df4e4513632.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Rhythm 2222 Room",
+      "id": "1254518080265129985",
+      "owner": false,
+      "approximate_member_count": 6,
+      "icon": "https://cdn.discordapp.com/icons/1254518080265129985/ac5d08ff18ca3f5419b70ac19e0dd4d1.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Sharing is caring",
+      "id": "1254628865150550076",
+      "owner": false,
+      "approximate_member_count": 54610,
+      "icon": "https://cdn.discordapp.com/icons/1254628865150550076/00c502b63f971408c6ae3f140d9ac35b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "cum café",
+      "id": "1270472109893877790",
+      "owner": false,
+      "approximate_member_count": 2599,
+      "icon": "https://cdn.discordapp.com/icons/1270472109893877790/647e2dde0a3cefa682f32084e65bc7bb.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Cherry NSFW ૮₍´˶• . • ⑅ ₎ა",
+      "id": "1297714606420135937",
+      "owner": false,
+      "approximate_member_count": 78,
+      "icon": "https://cdn.discordapp.com/icons/1297714606420135937/edad6bfc25f343f23df128e868e6200b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "goon ward",
+      "id": "1336109226023714828",
+      "owner": false,
+      "approximate_member_count": 25,
+      "icon": "https://cdn.discordapp.com/icons/1336109226023714828/09bc1fada6511f058543ca366600ca7f.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Fusion Shop",
+      "id": "1360392833231753449",
+      "owner": false,
+      "approximate_member_count": 2878,
+      "icon": "https://cdn.discordapp.com/icons/1360392833231753449/984b87988981974b0d3b8c67117abe3b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Limitless Goonclub",
+      "id": "1363620054129836302",
+      "owner": false,
+      "approximate_member_count": 863,
+      "icon": "https://cdn.discordapp.com/icons/1363620054129836302/1a3e13c0a1c3903d80da25713352a8e7.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Horny raccoon hq",
+      "id": "1365283529650475058",
+      "owner": false,
+      "approximate_member_count": 16,
+      "icon": "https://cdn.discordapp.com/icons/1365283529650475058/60c809f749fd536bc4cbf2d61942ef59.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Hentai Tribs",
+      "id": "1367230023794294916",
+      "owner": false,
+      "approximate_member_count": 3318,
+      "icon": "https://cdn.discordapp.com/icons/1367230023794294916/817509d33e84a1dd4743843011d23399.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Spam 🌽",
+      "id": "1386769751694512318",
+      "owner": false,
+      "approximate_member_count": 504,
+      "icon": "https://cdn.discordapp.com/icons/1386769751694512318/2bfb5c34e64b3798511130626966ea90.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "REAL HYPNOSIS",
+      "id": "1391285534676226108",
+      "owner": false,
+      "approximate_member_count": 241,
+      "icon": "https://cdn.discordapp.com/icons/1391285534676226108/7dce7316be85c9272bae97fcbc757a2b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "yuko's and linsy's corner",
+      "id": "1393024555018227712",
+      "owner": false,
+      "approximate_member_count": 55,
+      "icon": "https://cdn.discordapp.com/icons/1393024555018227712/c785422ca4665a29be1a59647ec5687f.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "HЄNTAI MULTIVERSE",
+      "id": "1393291510732296384",
+      "owner": false,
+      "approximate_member_count": 249,
+      "icon": "https://cdn.discordapp.com/icons/1393291510732296384/9bf4c66f6e77ac8b51292dc547a4bac6.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "babydoll boulevard",
+      "id": "1395494034104913970",
+      "owner": false,
+      "approximate_member_count": 13,
+      "icon": "https://cdn.discordapp.com/icons/1395494034104913970/ea2b4bfb6deac71d241e3268cc05e6f5.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "New Guild Name",
+      "id": "1397852965347262484",
+      "owner": false,
+      "approximate_member_count": 39666,
+      "icon": null,
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "CringeGoon",
+      "id": "1398973188444131469",
+      "owner": false,
+      "approximate_member_count": 7835,
+      "icon": "https://cdn.discordapp.com/icons/1398973188444131469/a_d856663a504ff7ab29f67e73a2ea0b3b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "femboy locker room /2/",
+      "id": "1400904985444876382",
+      "owner": false,
+      "approximate_member_count": 3215,
+      "icon": "https://cdn.discordapp.com/icons/1400904985444876382/e1d8867d4ae130271909df6a30df3a0d.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "WaifuCemetary’s Gooners",
+      "id": "1402156458048618607",
+      "owner": false,
+      "approximate_member_count": 589,
+      "icon": "https://cdn.discordapp.com/icons/1402156458048618607/29f8fce354be24824236d41f31065b75.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "𝐓𝐡𝐞𝐅𝐫𝐞𝐚𝐤𝐲𝐙𝐨𝐧𝐞",
+      "id": "1405146053577146481",
+      "owner": false,
+      "approximate_member_count": 847,
+      "icon": "https://cdn.discordapp.com/icons/1405146053577146481/a_297e1db98b8148cdbaf401551e75ca65.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "simmy: love stories starring you ❤",
+      "id": "1406002464716754964",
+      "owner": false,
+      "approximate_member_count": 12195,
+      "icon": "https://cdn.discordapp.com/icons/1406002464716754964/98f96de9b96f1137988c786539580924.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Divine Degens",
+      "id": "1406655162704990248",
+      "owner": false,
+      "approximate_member_count": 15115,
+      "icon": "https://cdn.discordapp.com/icons/1406655162704990248/ff040d2f858d9d9a1ce20c04a686cf60.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Darkcord",
+      "id": "1406822378662662144",
+      "owner": false,
+      "approximate_member_count": 12401,
+      "icon": "https://cdn.discordapp.com/icons/1406822378662662144/cb7d0017aad67a6d552d351e964d5754.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "BLACKED NEXUS",
+      "id": "1420635981177950270",
+      "owner": false,
+      "approximate_member_count": 14047,
+      "icon": "https://cdn.discordapp.com/icons/1420635981177950270/86c360ff58ce6ae96c68c89acc8a4d51.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Lewd Corner 🌸",
+      "id": "1427369959696240663",
+      "owner": false,
+      "approximate_member_count": 31,
+      "icon": "https://cdn.discordapp.com/icons/1427369959696240663/67f01fee314aa8254e987fc3f154df56.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "freakyyy",
+      "id": "1427919626771365991",
+      "owner": false,
+      "approximate_member_count": 206,
+      "icon": "https://cdn.discordapp.com/icons/1427919626771365991/f11ff6a220af34f4dbb109ea9946e50e.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "🌺 NSFW Hangout 🌺",
+      "id": "1428466955320430604",
+      "owner": false,
+      "approximate_member_count": 1938,
+      "icon": "https://cdn.discordapp.com/icons/1428466955320430604/a_d4cd6832aeb5ebc0a31b529328b89ced.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "The Liminal Gates",
+      "id": "1428860124105150478",
+      "owner": false,
+      "approximate_member_count": 163,
+      "icon": "https://cdn.discordapp.com/icons/1428860124105150478/68916e92c4164cf031857e0971197e5f.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Rate Me!",
+      "id": "1434123295753637890",
+      "owner": false,
+      "approximate_member_count": 359,
+      "icon": "https://cdn.discordapp.com/icons/1434123295753637890/678b5d9a2a17bcf2f07bd465505309bf.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "femboy locker room /3/",
+      "id": "1437447192548872264",
+      "owner": false,
+      "approximate_member_count": 1077,
+      "icon": "https://cdn.discordapp.com/icons/1437447192548872264/be20f31241a45fde9e054d33bfa77348.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "sharing is caring",
+      "id": "1450597323368304752",
+      "owner": false,
+      "approximate_member_count": 1658,
+      "icon": "https://cdn.discordapp.com/icons/1450597323368304752/20ed5673f3f32bd3c92db1c4f8e151a3.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Starden",
+      "id": "1452995309637603451",
+      "owner": false,
+      "approximate_member_count": 278,
+      "icon": "https://cdn.discordapp.com/icons/1452995309637603451/a_1d6c82250e72ddde3702609d5ac45d10.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Gooner server",
+      "id": "1455849004746145947",
+      "owner": false,
+      "approximate_member_count": 118,
+      "icon": "https://cdn.discordapp.com/icons/1455849004746145947/a_4f1aee0fa6c22d23d4b0626246c27717.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Neon Spot",
+      "id": "1457210666707587173",
+      "owner": false,
+      "approximate_member_count": 69,
+      "icon": "https://cdn.discordapp.com/icons/1457210666707587173/2ad3b65b969793a8fbc09444d8fab37c.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Donut Slots",
+      "id": "1457526583903391838",
+      "owner": false,
+      "approximate_member_count": 785,
+      "icon": "https://cdn.discordapp.com/icons/1457526583903391838/d19034f28fc8acaa5c3bb26970c6ea5c.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Twerk Server 2.0",
+      "id": "1463704375175155989",
+      "owner": false,
+      "approximate_member_count": 157,
+      "icon": "https://cdn.discordapp.com/icons/1463704375175155989/5c9baf9f90f3679c4066249cf0714409.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "SINNERS HIDEOUT",
+      "id": "1463888158792880304",
+      "owner": false,
+      "approximate_member_count": 1751,
+      "icon": "https://cdn.discordapp.com/icons/1463888158792880304/2bf18998ea4da70be54fe25bb4a01b54.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "𝐇𝐎𝐑𝐍𝐘 𝐇𝐈𝐓𝐁𝐎𝐗 │ 𝟏𝟖+",
+      "id": "1464359599799800002",
+      "owner": false,
+      "approximate_member_count": 655,
+      "icon": "https://cdn.discordapp.com/icons/1464359599799800002/d01f4839a288dfd66b9cdc4210456ae8.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "꧁𝚃𝚑𝚎 𝚅𝚊𝚞𝚕𝚝꧂ᴺˢᶠᵂ🔞",
+      "id": "1469991729393303657",
+      "owner": false,
+      "approximate_member_count": 226,
+      "icon": "https://cdn.discordapp.com/icons/1469991729393303657/f7a268cb65b77b56d23690bd53665acf.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "˗ˏˋ 🍒 Julie's Playroom :꒱",
+      "id": "1470840801255751834",
+      "owner": false,
+      "approximate_member_count": 282,
+      "icon": "https://cdn.discordapp.com/icons/1470840801255751834/eb4d3fb989c3520f16a6ea686d2144e8.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Goon Hub",
+      "id": "1470923535584071784",
+      "owner": false,
+      "approximate_member_count": 154,
+      "icon": "https://cdn.discordapp.com/icons/1470923535584071784/8ae93bd969c2727cebda61669b7a5e1f.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Freaky dms",
+      "id": "1472655953420615772",
+      "owner": false,
+      "approximate_member_count": 135,
+      "icon": "https://cdn.discordapp.com/icons/1472655953420615772/3da97b904c43da67276f4b3b6c2ee7b4.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "₊˚⊹ ᰔ gif library",
+      "id": "1477359357225340991",
+      "owner": false,
+      "approximate_member_count": 586,
+      "icon": "https://cdn.discordapp.com/icons/1477359357225340991/e1bdbde78903d851a42f04ed82c50831.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "NSFW Gallery 18+・FREE・ADULT・SOCIAL・COMMUNITY・EGIRLS・FUN・ANIME・GERMAN・NITRO・VC・HANGOUT・FRIENDLY・ART・O",
+      "id": "1477688424726007955",
+      "owner": false,
+      "approximate_member_count": 3571,
+      "icon": "https://cdn.discordapp.com/icons/1477688424726007955/460b57e149409b6df5640d1bd356bd41.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "goon weekly prewie (free)",
+      "id": "1483608025129418978",
+      "owner": false,
+      "approximate_member_count": 293,
+      "icon": "https://cdn.discordapp.com/icons/1483608025129418978/bd3f8b3e649226cad73fe634a2bdd0da.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "goon emporium",
+      "id": "1486792634138624072",
+      "owner": false,
+      "approximate_member_count": 52,
+      "icon": "https://cdn.discordapp.com/icons/1486792634138624072/4cbf38045f2c9f1dfc6c5d2f34520b78.png",
       "invite_link": null,
       "invite_status": "skipped"
     }
