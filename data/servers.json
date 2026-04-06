@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-04-06T07:46:36.420Z",
+  "exported_at": "2026-04-06T08:02:48.969Z",
   "account": {
-    "username": "rslint",
-    "global_name": "Roselind",
-    "id": "753543192418451467"
+    "username": "nyxora0473",
+    "global_name": "Nyxora",
+    "id": "1461677448105169030"
   },
-  "total_servers": 178,
+  "total_servers": 180,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -173,10 +173,10 @@
       "name": "Porn • Videos • Nudes • NSFW+",
       "id": "1074723404667691129",
       "owner": false,
-      "approximate_member_count": 102104,
+      "approximate_member_count": 102908,
       "icon": "https://cdn.discordapp.com/icons/1074723404667691129/fe03fe4ea44efcd5e8ff3c5e7cba32d4.png",
-      "invite_link": "https://discord.gg/pornservers",
-      "invite_status": "vanity"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "kiocode",
@@ -1606,6 +1606,24 @@
       "owner": true,
       "approximate_member_count": 1,
       "icon": null,
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Naughty Empire {18+}🔞",
+      "id": "940652503756840972",
+      "owner": false,
+      "approximate_member_count": 128741,
+      "icon": "https://cdn.discordapp.com/icons/940652503756840972/a_73bb5100a37590375ee8bc75af61ebb1.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "PIMPTOPIA | PIMP TAG",
+      "id": "1452566918967070754",
+      "owner": false,
+      "approximate_member_count": 38665,
+      "icon": "https://cdn.discordapp.com/icons/1452566918967070754/520971679a8a07e1bf8f02871b4928b1.png",
       "invite_link": null,
       "invite_status": "skipped"
     }
