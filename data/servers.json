@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-04-07T03:19:22.882Z",
+  "exported_at": "2026-04-08T03:04:59.995Z",
   "account": {
-    "username": "twelvepointseven",
-    "global_name": "Daniel :D",
-    "id": "1370203738572324894"
+    "username": "rafael_big_balls",
+    "global_name": "Rey 🫶",
+    "id": "1297218842702905415"
   },
-  "total_servers": 244,
+  "total_servers": 328,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -20,7 +20,7 @@
       "name": "The Faproom",
       "id": "890900169539862568",
       "owner": false,
-      "approximate_member_count": 82197,
+      "approximate_member_count": 82039,
       "icon": "https://cdn.discordapp.com/icons/890900169539862568/a_d0d281d5426d252873669dd81e2a839c.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -101,10 +101,10 @@
       "name": "Midnight café",
       "id": "1460163239378681942",
       "owner": false,
-      "approximate_member_count": 1102,
+      "approximate_member_count": 1098,
       "icon": "https://cdn.discordapp.com/icons/1460163239378681942/dd554e9c8b9d2fdd344d25fc8c79e083.png",
-      "invite_link": "https://discord.gg/XANz2r4fnh",
-      "invite_status": "created"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "WIBU RISE UP",
@@ -2202,6 +2202,762 @@
       "icon": "https://cdn.discordapp.com/icons/1477766477951140055/e6f10b55dfafd963bb2ea6e3fc18342b.png",
       "invite_link": "https://discord.gg/SyXnP2VkkW",
       "invite_status": "created"
+    },
+    {
+      "name": "762 Clan",
+      "id": "476519899414528011",
+      "owner": false,
+      "approximate_member_count": 26131,
+      "icon": "https://cdn.discordapp.com/icons/476519899414528011/33bd27c81aa97dea8a2026881aff892c.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Project Polaro",
+      "id": "714162101798830123",
+      "owner": false,
+      "approximate_member_count": 86680,
+      "icon": "https://cdn.discordapp.com/icons/714162101798830123/58fbb1f094f5ed58a8b79b6f3235e082.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "A Universal Time",
+      "id": "717072320321159178",
+      "owner": false,
+      "approximate_member_count": 859221,
+      "icon": "https://cdn.discordapp.com/icons/717072320321159178/18d75b5381af5efc4e4a9e7ca57756d5.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Syntax™",
+      "id": "724422144892731446",
+      "owner": false,
+      "approximate_member_count": 158133,
+      "icon": "https://cdn.discordapp.com/icons/724422144892731446/1d1465bfe547c65abefa3aba92fb3d6a.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "A Universal Time Trading",
+      "id": "741932015137456150",
+      "owner": false,
+      "approximate_member_count": 487997,
+      "icon": "https://cdn.discordapp.com/icons/741932015137456150/5d6b84d54565a182f3f58c235b47173a.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "A Universal Time Game Support",
+      "id": "771082422942433320",
+      "owner": false,
+      "approximate_member_count": 71360,
+      "icon": "https://cdn.discordapp.com/icons/771082422942433320/e6fbe7ce30b560560771e8fcd763d246.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Slap Battles",
+      "id": "820093197933740062",
+      "owner": false,
+      "approximate_member_count": 630434,
+      "icon": "https://cdn.discordapp.com/icons/820093197933740062/a_2a8e3410c8e6e69721a56927f91964e6.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Pokémon: Bronze Forever",
+      "id": "831083226319552542",
+      "owner": false,
+      "approximate_member_count": 852216,
+      "icon": "https://cdn.discordapp.com/icons/831083226319552542/9ee713c0aac95c248e2c7ac05a29d55c.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "A Universal Time Info",
+      "id": "882728790126645298",
+      "owner": false,
+      "approximate_member_count": 76117,
+      "icon": "https://cdn.discordapp.com/icons/882728790126645298/4f89ea00b953a595ce4472edc298baca.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Cobblemon",
+      "id": "934267676354834442",
+      "owner": false,
+      "approximate_member_count": 338555,
+      "icon": "https://cdn.discordapp.com/icons/934267676354834442/6eed4e3d8a041a02697df225c3919035.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Codex Collective",
+      "id": "978632997425283092",
+      "owner": false,
+      "approximate_member_count": 267358,
+      "icon": "https://cdn.discordapp.com/icons/978632997425283092/808632ee0656e6da0ddf1d4e40734349.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Bizarre Lineage",
+      "id": "984530118368165908",
+      "owner": false,
+      "approximate_member_count": 506023,
+      "icon": "https://cdn.discordapp.com/icons/984530118368165908/e69a14458adf195389ef18d154e99598.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "PokéBedrock",
+      "id": "1055832065230258277",
+      "owner": false,
+      "approximate_member_count": 138278,
+      "icon": "https://cdn.discordapp.com/icons/1055832065230258277/09bd2ae1d68393a8b35a21441d4e2508.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Eleons",
+      "id": "1066154742864162917",
+      "owner": false,
+      "approximate_member_count": 195505,
+      "icon": "https://cdn.discordapp.com/icons/1066154742864162917/f30525fc83da5235a513253068474a88.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Emote Clan",
+      "id": "1081406003679072376",
+      "owner": false,
+      "approximate_member_count": 11642,
+      "icon": "https://cdn.discordapp.com/icons/1081406003679072376/142575e13bfad1486a184d7928f8541f.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "☢ Grupinho do Sor ☢",
+      "id": "1109550478364258366",
+      "owner": false,
+      "approximate_member_count": 3504,
+      "icon": "https://cdn.discordapp.com/icons/1109550478364258366/13b21fcd1566c3edc6ef6e33590d30b5.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "drowningsome",
+      "id": "1116542509246591047",
+      "owner": false,
+      "approximate_member_count": 580485,
+      "icon": "https://cdn.discordapp.com/icons/1116542509246591047/6a49033ab5c7a1c37a055135a8aca866.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Destinies Reborn",
+      "id": "1124761250165948509",
+      "owner": false,
+      "approximate_member_count": 2025,
+      "icon": "https://cdn.discordapp.com/icons/1124761250165948509/b0190ab1194313bdc92aed3e1df97b70.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "𝙎𝙘𝙧𝙞𝙥𝙩𝙃𝙪𝙗",
+      "id": "1147142965026893884",
+      "owner": false,
+      "approximate_member_count": 2836,
+      "icon": "https://cdn.discordapp.com/icons/1147142965026893884/fd9cab7ab13cb469c8c4c3aab816a63e.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Pokemon: Bronze Zero",
+      "id": "1153037590753181727",
+      "owner": false,
+      "approximate_member_count": 6863,
+      "icon": "https://cdn.discordapp.com/icons/1153037590753181727/ed0fd9b6a72c034414f2dda461d5c22b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Dantotsu",
+      "id": "1163949787213746248",
+      "owner": false,
+      "approximate_member_count": 18929,
+      "icon": "https://cdn.discordapp.com/icons/1163949787213746248/a_5d0085c160b63c6889b13e9db52b2e60.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Pokémon: Galar Origins",
+      "id": "1172659079869640804",
+      "owner": false,
+      "approximate_member_count": 19090,
+      "icon": "https://cdn.discordapp.com/icons/1172659079869640804/f55abfcd3fbc37f5b564ea8f4e20a7b9.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Heaven Stand",
+      "id": "1190394389802000405",
+      "owner": false,
+      "approximate_member_count": 65176,
+      "icon": "https://cdn.discordapp.com/icons/1190394389802000405/fddc4ae1a544c28af18191103b2fedf8.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Bacon But Pro",
+      "id": "1195215465929265222",
+      "owner": false,
+      "approximate_member_count": 219640,
+      "icon": "https://cdn.discordapp.com/icons/1195215465929265222/ffed88259eba90216377d704ee9abad8.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Stand Power Official Discord!",
+      "id": "1203561197543366706",
+      "owner": false,
+      "approximate_member_count": 14219,
+      "icon": "https://cdn.discordapp.com/icons/1203561197543366706/8e1827d5a15538ac0ce6fb68bdb1d459.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Delta Dynamics",
+      "id": "1221935816515911850",
+      "owner": false,
+      "approximate_member_count": 2996328,
+      "icon": "https://cdn.discordapp.com/icons/1221935816515911850/42dc0822bc4f734f9d8884d7923122c0.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Solix Hub",
+      "id": "1227640025303220294",
+      "owner": false,
+      "approximate_member_count": 105853,
+      "icon": "https://cdn.discordapp.com/icons/1227640025303220294/a_164616889580d64f48446be54ecfa776.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Project: Renewal Reborn",
+      "id": "1241577978853326960",
+      "owner": false,
+      "approximate_member_count": 33690,
+      "icon": "https://cdn.discordapp.com/icons/1241577978853326960/763a6097cb18edb214c039c5665ab7ce.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "JN HH Gaming - Roblox Exploits",
+      "id": "1262860206984007802",
+      "owner": false,
+      "approximate_member_count": 32052,
+      "icon": "https://cdn.discordapp.com/icons/1262860206984007802/9f83926552d9fb4345734870b63cf523.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Project: Crescent Moon",
+      "id": "1269672154824441917",
+      "owner": false,
+      "approximate_member_count": 35490,
+      "icon": "https://cdn.discordapp.com/icons/1269672154824441917/bfa03d12a7025987e3e0b4c421b293c7.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Roria Conquest",
+      "id": "1272031351737942026",
+      "owner": false,
+      "approximate_member_count": 241614,
+      "icon": "https://cdn.discordapp.com/icons/1272031351737942026/5ea3e1aca66d12009e9d364d96d739fe.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Roria Conquest Wiki",
+      "id": "1274669336598155305",
+      "owner": false,
+      "approximate_member_count": 11129,
+      "icon": "https://cdn.discordapp.com/icons/1274669336598155305/1b6c36cbb492ca2a26da8d2a0869c3ac.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Rapid's Lounge (Scripts)",
+      "id": "1276004375382331433",
+      "owner": false,
+      "approximate_member_count": 27447,
+      "icon": "https://cdn.discordapp.com/icons/1276004375382331433/0121c16b710bb65ce3efa5cbb464f4e6.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Delta Community | Games, Emojis + More!",
+      "id": "1279547031945220147",
+      "owner": false,
+      "approximate_member_count": 586175,
+      "icon": "https://cdn.discordapp.com/icons/1279547031945220147/c02e6d73281c62c6877ad1be1e74efe6.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Roblox",
+      "id": "1279560656030535700",
+      "owner": false,
+      "approximate_member_count": 122690,
+      "icon": "https://cdn.discordapp.com/icons/1279560656030535700/d3b3767d0e3f07e9da0f74b78dd28dde.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Pokemon: Frontier",
+      "id": "1284583215851638855",
+      "owner": false,
+      "approximate_member_count": 41523,
+      "icon": "https://cdn.discordapp.com/icons/1284583215851638855/b8ce37d4f2e577af5754efa097547fd5.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "﹒Kif",
+      "id": "1286859772557004800",
+      "owner": false,
+      "approximate_member_count": 1720,
+      "icon": "https://cdn.discordapp.com/icons/1286859772557004800/a_3a418362d90d0a21748b705caba5dc7a.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Alex's Scripts 👑",
+      "id": "1302977046305181773",
+      "owner": false,
+      "approximate_member_count": 212938,
+      "icon": "https://cdn.discordapp.com/icons/1302977046305181773/e62a5b73e915093d2bcd8b717d1973dd.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Reks Showcase Hub",
+      "id": "1303636493906214932",
+      "owner": false,
+      "approximate_member_count": 19972,
+      "icon": "https://cdn.discordapp.com/icons/1303636493906214932/92e7fedb7fe2ba966eb25ff2c0296d84.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Raging Thunder Community",
+      "id": "1303652770154283028",
+      "owner": false,
+      "approximate_member_count": 6967,
+      "icon": "https://cdn.discordapp.com/icons/1303652770154283028/3ab353c738c30f994de4a47dc5ff7468.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Blue Lock: Rivals Unofficial Fans",
+      "id": "1304535758899777626",
+      "owner": false,
+      "approximate_member_count": 1735394,
+      "icon": "https://cdn.discordapp.com/icons/1304535758899777626/44c2524383210a91f2d421633eba0c74.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Pokemon Brick Bronze! TOURNAMENT",
+      "id": "1304835873371848744",
+      "owner": false,
+      "approximate_member_count": 26,
+      "icon": "https://cdn.discordapp.com/icons/1304835873371848744/bbb7611ccc1f591d35620208c30918c5.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "BaconScripter's Server",
+      "id": "1305782679727509554",
+      "owner": false,
+      "approximate_member_count": 762,
+      "icon": "https://cdn.discordapp.com/icons/1305782679727509554/e642f61d812b8a8f7347518dc9de2de2.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Yokai.win",
+      "id": "1308016341554434098",
+      "owner": false,
+      "approximate_member_count": 101540,
+      "icon": "https://cdn.discordapp.com/icons/1308016341554434098/a_6dc298d57ba83f654ea283acd0466701.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Executive Scripts",
+      "id": "1310310034298900582",
+      "owner": false,
+      "approximate_member_count": 37380,
+      "icon": "https://cdn.discordapp.com/icons/1310310034298900582/75881e1ce453e6bf80ca1732f84c37fb.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Discussion For Creating Or editing stuff",
+      "id": "1310972974970437662",
+      "owner": false,
+      "approximate_member_count": 3,
+      "icon": null,
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Basketball: Zero OFFICIAL",
+      "id": "1326149032384532530",
+      "owner": false,
+      "approximate_member_count": 1474736,
+      "icon": "https://cdn.discordapp.com/icons/1326149032384532530/567da79f517f3381b31a2463edafd7c0.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Basketball Showdown",
+      "id": "1327726913338478765",
+      "owner": false,
+      "approximate_member_count": 62529,
+      "icon": "https://cdn.discordapp.com/icons/1327726913338478765/bd2093edead62f3bce6701db891ff6e7.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Incognito Squad",
+      "id": "1328625866447786059",
+      "owner": false,
+      "approximate_member_count": 4361,
+      "icon": "https://cdn.discordapp.com/icons/1328625866447786059/eff046b6f18bd1616460ab2218a6204d.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "NexuWare MarketPlace - OFFICIAL",
+      "id": "1332957640057163796",
+      "owner": false,
+      "approximate_member_count": 18116,
+      "icon": "https://cdn.discordapp.com/icons/1332957640057163796/4139251263c5a9212722758240596013.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "ScriptX",
+      "id": "1335032163585753141",
+      "owner": false,
+      "approximate_member_count": 17244,
+      "icon": "https://cdn.discordapp.com/icons/1335032163585753141/64e3e2aa957eb302729221b79e06ce16.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Official WORLD STADIUM Server",
+      "id": "1345708970857463870",
+      "owner": false,
+      "approximate_member_count": 1037,
+      "icon": "https://cdn.discordapp.com/icons/1345708970857463870/bd2148868e993a9db6c36ffbb0b79727.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Anime Girl RNG",
+      "id": "1349733814360080468",
+      "owner": false,
+      "approximate_member_count": 54326,
+      "icon": "https://cdn.discordapp.com/icons/1349733814360080468/27cce2d8cff75054444c8b5ae0f5cb9d.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Fa7ods Store",
+      "id": "1349822585252348024",
+      "owner": false,
+      "approximate_member_count": 15880,
+      "icon": "https://cdn.discordapp.com/icons/1349822585252348024/d97cbc7126de37bf5eb1a2efe86b90a9.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Soluna",
+      "id": "1354669638411096164",
+      "owner": false,
+      "approximate_member_count": 66304,
+      "icon": "https://cdn.discordapp.com/icons/1354669638411096164/0b60d9c2b62626cae8e4a2fbb5b9d5d9.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Devil Hunter",
+      "id": "1354944421640015902",
+      "owner": false,
+      "approximate_member_count": 282946,
+      "icon": "https://cdn.discordapp.com/icons/1354944421640015902/edacd12be9c20d1a02abbf8eb18afe50.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Grow a Garden",
+      "id": "1358536829636448418",
+      "owner": false,
+      "approximate_member_count": 4842271,
+      "icon": "https://cdn.discordapp.com/icons/1358536829636448418/a5c583d8c381e1662747f3cbe81da914.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Bacon But Pro (backup)",
+      "id": "1362073703759745115",
+      "owner": false,
+      "approximate_member_count": 12752,
+      "icon": "https://cdn.discordapp.com/icons/1362073703759745115/ffed88259eba90216377d704ee9abad8.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "LimitHub",
+      "id": "1362478402656797034",
+      "owner": false,
+      "approximate_member_count": 59534,
+      "icon": "https://cdn.discordapp.com/icons/1362478402656797034/4ceaeac5603829625988939b6b2444ba.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "darkModz",
+      "id": "1368318954300375143",
+      "owner": false,
+      "approximate_member_count": 4929,
+      "icon": "https://cdn.discordapp.com/icons/1368318954300375143/42ac6e08611dd46c4db7e24701745e85.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Chiyo",
+      "id": "1370799935628382489",
+      "owner": false,
+      "approximate_member_count": 127922,
+      "icon": "https://cdn.discordapp.com/icons/1370799935628382489/be6cd6480949aa1631a056750d33a7ca.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Multiverse Trollge Insanity",
+      "id": "1371935106541031495",
+      "owner": false,
+      "approximate_member_count": 9027,
+      "icon": "https://cdn.discordapp.com/icons/1371935106541031495/1d637d89c16f05e0767785266958c323.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Grow a Garden | Official Stock Watch",
+      "id": "1371970717444341802",
+      "owner": false,
+      "approximate_member_count": 427428,
+      "icon": "https://cdn.discordapp.com/icons/1371970717444341802/b910b3bff858818a811c3fab63c1c40c.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "𝚉'𝚜 𝙿𝚘𝚔𝚎𝙷𝚞𝚋",
+      "id": "1375838214761484439",
+      "owner": false,
+      "approximate_member_count": 977,
+      "icon": "https://cdn.discordapp.com/icons/1375838214761484439/0b7f43cf8c11b3110eec64b010719fc2.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Steal a Brainrot",
+      "id": "1376018788041887795",
+      "owner": false,
+      "approximate_member_count": 8227919,
+      "icon": "https://cdn.discordapp.com/icons/1376018788041887795/f9f69ceda1bb918075ee1b2fd4cb5fcc.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Grow a Garden D",
+      "id": "1376049130614558801",
+      "owner": false,
+      "approximate_member_count": 328132,
+      "icon": "https://cdn.discordapp.com/icons/1376049130614558801/7ef65b266d8493841ca50fe989ba85df.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Team S0ftKillz",
+      "id": "1379785788895789096",
+      "owner": false,
+      "approximate_member_count": 65053,
+      "icon": "https://cdn.discordapp.com/icons/1379785788895789096/a_dd960c9e7d3d9c2d589e628ab083ee26.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Executors",
+      "id": "1391336745605271642",
+      "owner": false,
+      "approximate_member_count": 8319,
+      "icon": "https://cdn.discordapp.com/icons/1391336745605271642/e80580e7ca2f4787a1b5c1c8c9fa8743.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Project Reverse",
+      "id": "1393184565530595368",
+      "owner": false,
+      "approximate_member_count": 68673,
+      "icon": "https://cdn.discordapp.com/icons/1393184565530595368/7e26f4aedd59d95f9e3edcb05eff187c.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Miranda Hub",
+      "id": "1394523388273234082",
+      "owner": false,
+      "approximate_member_count": 66984,
+      "icon": "https://cdn.discordapp.com/icons/1394523388273234082/dc5d751a7531c191fc23b94a064afa7a.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "QP Community",
+      "id": "1398801751645360350",
+      "owner": false,
+      "approximate_member_count": 39875,
+      "icon": "https://cdn.discordapp.com/icons/1398801751645360350/3c93c7bd81d8cf56bab1217f56767547.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Weapon Ball Fight (WBF)",
+      "id": "1399584447103504414",
+      "owner": false,
+      "approximate_member_count": 15492,
+      "icon": "https://cdn.discordapp.com/icons/1399584447103504414/ca5513f68d2ea747100b656e72b38a45.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Fier Team | RT5K",
+      "id": "1400076639332728852",
+      "owner": false,
+      "approximate_member_count": 4813,
+      "icon": "https://cdn.discordapp.com/icons/1400076639332728852/ae74313bb896eb5f26fd2023ecdcde5b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "cat.lua",
+      "id": "1400862304869941440",
+      "owner": false,
+      "approximate_member_count": 278,
+      "icon": "https://cdn.discordapp.com/icons/1400862304869941440/a_05131f20e10112256c929f796fffb380.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Weapon Balls",
+      "id": "1406205116209692744",
+      "owner": false,
+      "approximate_member_count": 275,
+      "icon": "https://cdn.discordapp.com/icons/1406205116209692744/612a3455c2451f8ad987db63b86197a2.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Proxi.face",
+      "id": "1409004288042078362",
+      "owner": false,
+      "approximate_member_count": 35059,
+      "icon": "https://cdn.discordapp.com/icons/1409004288042078362/6aaf3a2548e34a17c09f2985140e582b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Executors",
+      "id": "1422761133051220042",
+      "owner": false,
+      "approximate_member_count": 7610,
+      "icon": "https://cdn.discordapp.com/icons/1422761133051220042/b23ca19467198f36639e8e6b15d2b5d1.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "14kGreenz",
+      "id": "1428444378594283633",
+      "owner": false,
+      "approximate_member_count": 923,
+      "icon": "https://cdn.discordapp.com/icons/1428444378594283633/e6345bdecdefc44739b74a29299f6773.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Xeno Reborn1",
+      "id": "1432010696039862476",
+      "owner": false,
+      "approximate_member_count": 8399,
+      "icon": "https://cdn.discordapp.com/icons/1432010696039862476/fdc8aaf7d61af81955a7f97a6a20f28f.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Loyal SMP",
+      "id": "1451796225212022806",
+      "owner": false,
+      "approximate_member_count": 1872,
+      "icon": "https://cdn.discordapp.com/icons/1451796225212022806/fb52c76ae3133e728bbf486f792335b5.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "PRIVATE 18+",
+      "id": "1460931990919319786",
+      "owner": false,
+      "approximate_member_count": 108199,
+      "icon": "https://cdn.discordapp.com/icons/1460931990919319786/e7ba30feee900c4f7fde34e6998043b6.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "VIP Content 🔞",
+      "id": "1472754169352814697",
+      "owner": false,
+      "approximate_member_count": 8481,
+      "icon": "https://cdn.discordapp.com/icons/1472754169352814697/37408c13eb47d2c688af6a0dae43d6bf.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Collect Cats 🐈",
+      "id": "1473416979212927194",
+      "owner": false,
+      "approximate_member_count": 2058,
+      "icon": "https://cdn.discordapp.com/icons/1473416979212927194/9212389771317e5d017d481492bd0ead.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Roria Conquest",
+      "id": "1485628287282839713",
+      "owner": false,
+      "approximate_member_count": 3304,
+      "icon": "https://cdn.discordapp.com/icons/1485628287282839713/d4c594dc1e3c5c54a9d154cc44198ccb.png",
+      "invite_link": null,
+      "invite_status": "skipped"
     }
   ]
 }
