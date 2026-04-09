@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-04-08T03:04:59.995Z",
+  "exported_at": "2026-04-09T04:09:12.105Z",
   "account": {
-    "username": "rafael_big_balls",
-    "global_name": "Rey 🫶",
-    "id": "1297218842702905415"
+    "username": "redbird2235",
+    "global_name": "shortking",
+    "id": "682378410546561084"
   },
-  "total_servers": 328,
+  "total_servers": 348,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -20,7 +20,7 @@
       "name": "The Faproom",
       "id": "890900169539862568",
       "owner": false,
-      "approximate_member_count": 82039,
+      "approximate_member_count": 81972,
       "icon": "https://cdn.discordapp.com/icons/890900169539862568/a_d0d281d5426d252873669dd81e2a839c.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -2956,6 +2956,186 @@
       "owner": false,
       "approximate_member_count": 3304,
       "icon": "https://cdn.discordapp.com/icons/1485628287282839713/d4c594dc1e3c5c54a9d154cc44198ccb.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Nintendo Homebrew",
+      "id": "196618637950451712",
+      "owner": false,
+      "approximate_member_count": 258353,
+      "icon": "https://cdn.discordapp.com/icons/196618637950451712/291a25f24c04a888013942f0df2a2786.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "RPCS3",
+      "id": "272035812277878785",
+      "owner": false,
+      "approximate_member_count": 506727,
+      "icon": "https://cdn.discordapp.com/icons/272035812277878785/a_eac1c8ad50fb407c4a1e26cdc501e92a.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Xbox 360 Hub",
+      "id": "436450658531672064",
+      "owner": false,
+      "approximate_member_count": 18340,
+      "icon": "https://cdn.discordapp.com/icons/436450658531672064/7b0189f34049b9be07f1666f7acb8984.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Anton Retro World",
+      "id": "538475858327896065",
+      "owner": false,
+      "approximate_member_count": 5156,
+      "icon": "https://cdn.discordapp.com/icons/538475858327896065/e4624cfb07178b7f369a85dfb3103a01.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Cancellia",
+      "id": "545842171459272705",
+      "owner": false,
+      "approximate_member_count": 63849,
+      "icon": "https://cdn.discordapp.com/icons/545842171459272705/a_8ad77f13b6901b7e4596018eec779f96.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Roblox Giftcards Premnium",
+      "id": "616369518280835093",
+      "owner": false,
+      "approximate_member_count": 992,
+      "icon": "https://cdn.discordapp.com/icons/616369518280835093/125459f6aa9d891827a605047df71f18.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Source Engine 4 Android",
+      "id": "672055862608658432",
+      "owner": false,
+      "approximate_member_count": 42692,
+      "icon": "https://cdn.discordapp.com/icons/672055862608658432/a_c884be280b6766baac642585bb56b7f3.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "3DMM Discord",
+      "id": "738543220170031135",
+      "owner": false,
+      "approximate_member_count": 496,
+      "icon": "https://cdn.discordapp.com/icons/738543220170031135/a50d87e2c69e02783f80b58c441710da.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Null's Box",
+      "id": "821739772754133062",
+      "owner": false,
+      "approximate_member_count": 4771,
+      "icon": "https://cdn.discordapp.com/icons/821739772754133062/a_7387287a893c88d12be4182c0452fe81.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "$EARNM | Deflationary Rewards 🤳 💸",
+      "id": "939758360075591682",
+      "owner": false,
+      "approximate_member_count": 162323,
+      "icon": "https://cdn.discordapp.com/icons/939758360075591682/a_c261067c74cc377248027c3a7d70c05e.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "TABS Mobile",
+      "id": "996728999038423050",
+      "owner": false,
+      "approximate_member_count": 10220,
+      "icon": "https://cdn.discordapp.com/icons/996728999038423050/a_6b25cd1a253a2d662464be188d5a6384.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Daddy please",
+      "id": "1073075068030177300",
+      "owner": false,
+      "approximate_member_count": 2,
+      "icon": "https://cdn.discordapp.com/icons/1073075068030177300/be664c935616f9f356e46a27a18cafec.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "redbird2235's server",
+      "id": "1091893399000457268",
+      "owner": true,
+      "approximate_member_count": 3,
+      "icon": null,
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "clay jam!",
+      "id": "1187507326723293374",
+      "owner": false,
+      "approximate_member_count": 58,
+      "icon": "https://cdn.discordapp.com/icons/1187507326723293374/bd5fb5a9ee8cd7833df6c04ff5f9628f.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Gumslinger",
+      "id": "1194645908688740422",
+      "owner": false,
+      "approximate_member_count": 7160,
+      "icon": "https://cdn.discordapp.com/icons/1194645908688740422/fd3a1b45dd57535574fd47192ee22e94.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Chef Tyler's Cheddar Children",
+      "id": "1251331701234471046",
+      "owner": false,
+      "approximate_member_count": 16119,
+      "icon": "https://cdn.discordapp.com/icons/1251331701234471046/6d93f26afcd64fe03ab641e5501528e3.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Psychic",
+      "id": "1258931943316394056",
+      "owner": false,
+      "approximate_member_count": 1761,
+      "icon": "https://cdn.discordapp.com/icons/1258931943316394056/e166d0d157316b5f5af06efbc96873db.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "LP Content 💎",
+      "id": "1314903004822114354",
+      "owner": false,
+      "approximate_member_count": 125611,
+      "icon": "https://cdn.discordapp.com/icons/1314903004822114354/ddc12ca10bdc33f96487c5337b4dd32e.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Moonlights",
+      "id": "1390520720941121687",
+      "owner": false,
+      "approximate_member_count": 1055,
+      "icon": null,
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Clay Jam!",
+      "id": "1437200139193290934",
+      "owner": false,
+      "approximate_member_count": 78,
+      "icon": "https://cdn.discordapp.com/icons/1437200139193290934/4c2505e150343504ab58a7faec9e62df.png",
       "invite_link": null,
       "invite_status": "skipped"
     }
