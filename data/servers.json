@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-04-09T04:09:12.105Z",
+  "exported_at": "2026-04-09T15:31:35.161Z",
   "account": {
-    "username": "redbird2235",
-    "global_name": "shortking",
-    "id": "682378410546561084"
+    "username": "elyarullya",
+    "global_name": "Elya",
+    "id": "1462441811057578133"
   },
   "total_servers": 348,
   "servers": [
@@ -101,7 +101,7 @@
       "name": "Midnight café",
       "id": "1460163239378681942",
       "owner": false,
-      "approximate_member_count": 1098,
+      "approximate_member_count": 1097,
       "icon": "https://cdn.discordapp.com/icons/1460163239378681942/dd554e9c8b9d2fdd344d25fc8c79e083.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -173,7 +173,7 @@
       "name": "Porn • Videos • Nudes • NSFW+",
       "id": "1074723404667691129",
       "owner": false,
-      "approximate_member_count": 102911,
+      "approximate_member_count": 103161,
       "icon": "https://cdn.discordapp.com/icons/1074723404667691129/fe03fe4ea44efcd5e8ff3c5e7cba32d4.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -1622,10 +1622,10 @@
       "name": "PIMPTOPIA | PIMP TAG",
       "id": "1452566918967070754",
       "owner": false,
-      "approximate_member_count": 38758,
+      "approximate_member_count": 39271,
       "icon": "https://cdn.discordapp.com/icons/1452566918967070754/520971679a8a07e1bf8f02871b4928b1.png",
-      "invite_link": "https://discord.gg/pimptopia",
-      "invite_status": "vanity"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "halftime girls",
