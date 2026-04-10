@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-04-10T15:09:44.964Z",
+  "exported_at": "2026-04-10T18:31:48.079Z",
   "account": {
-    "username": "accounthavked",
-    "global_name": "garsya",
-    "id": "1087024448827306054"
+    "username": "italac0684_09595",
+    "global_name": "Ítalac",
+    "id": "1373734088405680351"
   },
-  "total_servers": 431,
+  "total_servers": 440,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -20,7 +20,7 @@
       "name": "The Faproom",
       "id": "890900169539862568",
       "owner": false,
-      "approximate_member_count": 81856,
+      "approximate_member_count": 81835,
       "icon": "https://cdn.discordapp.com/icons/890900169539862568/a_d0d281d5426d252873669dd81e2a839c.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -101,7 +101,7 @@
       "name": "Midnight café",
       "id": "1460163239378681942",
       "owner": false,
-      "approximate_member_count": 1091,
+      "approximate_member_count": 1089,
       "icon": "https://cdn.discordapp.com/icons/1460163239378681942/dd554e9c8b9d2fdd344d25fc8c79e083.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -3883,6 +3883,87 @@
       "owner": false,
       "approximate_member_count": 5474,
       "icon": "https://cdn.discordapp.com/icons/1458278782845587548/dd2678ee144203b6ba23d3b84c2c0931.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Armpit Addicts 👀👅💦",
+      "id": "601794504684470272",
+      "owner": false,
+      "approximate_member_count": 720,
+      "icon": "https://cdn.discordapp.com/icons/601794504684470272/af6f66986d3a1c9e9c79b3f3f7284b99.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "XD FPS 🚀#91K",
+      "id": "1080278920710078524",
+      "owner": false,
+      "approximate_member_count": 90128,
+      "icon": "https://cdn.discordapp.com/icons/1080278920710078524/a_c6e9c889abc0b0c7ec8a92bf828cd70d.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "futebol legacy",
+      "id": "1093520669536423996",
+      "owner": false,
+      "approximate_member_count": 5,
+      "icon": "https://cdn.discordapp.com/icons/1093520669536423996/2ce2b2449bacb39272674f041f3e06a1.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "/tiktokvideo 🤍",
+      "id": "1226887712389468251",
+      "owner": false,
+      "approximate_member_count": 15304,
+      "icon": "https://cdn.discordapp.com/icons/1226887712389468251/a_4b1b70bf19f9a2d024aa6daaccc38ba7.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "/bay",
+      "id": "1330671013561897000",
+      "owner": false,
+      "approximate_member_count": 2116,
+      "icon": "https://cdn.discordapp.com/icons/1330671013561897000/a_1d740fcc9392232a00b08d0bd2fef00d.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "/mamba 💙",
+      "id": "1391131222750531706",
+      "owner": false,
+      "approximate_member_count": 47287,
+      "icon": "https://cdn.discordapp.com/icons/1391131222750531706/a_a0cdf380bbd19e2807c2e74377ad15b6.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Jogadores do Mirassol",
+      "id": "1402080601300795442",
+      "owner": false,
+      "approximate_member_count": 7,
+      "icon": "https://cdn.discordapp.com/icons/1402080601300795442/3e0f2064116071027f63bd712d99895f.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Método do sag4z",
+      "id": "1428115801818267782",
+      "owner": false,
+      "approximate_member_count": 7,
+      "icon": "https://cdn.discordapp.com/icons/1428115801818267782/7250575b8846f31373482dfe660c4372.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "So os aurudo",
+      "id": "1472280579444703435",
+      "owner": false,
+      "approximate_member_count": 3,
+      "icon": null,
       "invite_link": null,
       "invite_status": "skipped"
     }
