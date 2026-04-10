@@ -5,7 +5,7 @@
     "global_name": "Lyssandra Chasandra",
     "id": "745653717373550664"
   },
-  "total_servers": 349,
+  "total_servers": 348,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -456,15 +456,6 @@
       "icon": "https://cdn.discordapp.com/icons/1180535571530141717/403b52c53a76cfbfc41d3dd1bf740235.png",
       "invite_link": null,
       "invite_status": "skipped"
-    },
-    {
-      "name": "MAINTENAING",
-      "id": "1472906063631224864",
-      "owner": false,
-      "approximate_member_count": 16,
-      "icon": "https://cdn.discordapp.com/icons/1472906063631224864/00fbd16177e0c8b3601a16a555c8c412.png",
-      "invite_link": "https://discord.gg/qaPAzCwsMR",
-      "invite_status": "created"
     },
     {
       "name": "nyawitzone: menolak padam",
