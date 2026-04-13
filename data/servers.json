@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-04-11T08:51:04.954Z",
+  "exported_at": "2026-04-13T05:42:05.900Z",
   "account": {
-    "username": "accounthavked",
-    "global_name": "garsya",
-    "id": "1087024448827306054"
+    "username": ".dox._",
+    "global_name": "Ghost",
+    "id": "1333698236229222402"
   },
-  "total_servers": 440,
+  "total_servers": 445,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -101,10 +101,10 @@
       "name": "Midnight café",
       "id": "1460163239378681942",
       "owner": false,
-      "approximate_member_count": 1086,
+      "approximate_member_count": 1081,
       "icon": "https://cdn.discordapp.com/icons/1460163239378681942/dd554e9c8b9d2fdd344d25fc8c79e083.png",
-      "invite_link": "https://discord.gg/sKvHFPQPh9",
-      "invite_status": "created"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "WIBU RISE UP",
@@ -3964,6 +3964,51 @@
       "owner": false,
       "approximate_member_count": 3,
       "icon": null,
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Dadscord | Active VC Discord • SFW  • Anime • Chill • Social • Emojis • VC • egirl • 100+ GUILD TAG",
+      "id": "319560327719026709",
+      "owner": false,
+      "approximate_member_count": 1004040,
+      "icon": "https://cdn.discordapp.com/icons/319560327719026709/a_eb564c2bfa08c3fbc73db134eb482f05.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Pixel Survival Haven",
+      "id": "561684409720504320",
+      "owner": false,
+      "approximate_member_count": 2218,
+      "icon": "https://cdn.discordapp.com/icons/561684409720504320/c4da42fbda3652f2f4b478fe8c27647e.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Trending GIFs",
+      "id": "1296096862784458762",
+      "owner": false,
+      "approximate_member_count": 2825,
+      "icon": "https://cdn.discordapp.com/icons/1296096862784458762/3c883428d248a686cb0e7cc967b458db.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Afterbang",
+      "id": "1353638632875098214",
+      "owner": false,
+      "approximate_member_count": 24935,
+      "icon": "https://cdn.discordapp.com/icons/1353638632875098214/3b81f871b5d0fba7354d3198c5ca08c7.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "🖤 Euphoria",
+      "id": "1362187743014289468",
+      "owner": false,
+      "approximate_member_count": 3294,
+      "icon": "https://cdn.discordapp.com/icons/1362187743014289468/a_160d609ad84ceaa51a0a9235f542eaf7.png",
       "invite_link": null,
       "invite_status": "skipped"
     }
