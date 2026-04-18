@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-04-13T05:42:05.900Z",
+  "exported_at": "2026-04-18T07:30:37.209Z",
   "account": {
-    "username": ".dox._",
-    "global_name": "Ghost",
-    "id": "1333698236229222402"
+    "username": "monkeyyy200000",
+    "global_name": "Monkey?",
+    "id": "1429289777685074034"
   },
-  "total_servers": 445,
+  "total_servers": 476,
   "servers": [
     {
       "name": "SellaWorks | #NeedStaffs",
@@ -20,10 +20,10 @@
       "name": "The Faproom",
       "id": "890900169539862568",
       "owner": false,
-      "approximate_member_count": 81788,
+      "approximate_member_count": 81236,
       "icon": "https://cdn.discordapp.com/icons/890900169539862568/a_d0d281d5426d252873669dd81e2a839c.png",
-      "invite_link": "https://discord.gg/PKDdRYBmau",
-      "invite_status": "created"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "SIMP World",
@@ -101,7 +101,7 @@
       "name": "Midnight café",
       "id": "1460163239378681942",
       "owner": false,
-      "approximate_member_count": 1081,
+      "approximate_member_count": 1048,
       "icon": "https://cdn.discordapp.com/icons/1460163239378681942/dd554e9c8b9d2fdd344d25fc8c79e083.png",
       "invite_link": null,
       "invite_status": "skipped"
@@ -1964,10 +1964,10 @@
       "name": "Divine Degens",
       "id": "1406655162704990248",
       "owner": false,
-      "approximate_member_count": 15155,
+      "approximate_member_count": 16853,
       "icon": "https://cdn.discordapp.com/icons/1406655162704990248/ff040d2f858d9d9a1ce20c04a686cf60.png",
-      "invite_link": "https://discord.gg/dgenz",
-      "invite_status": "vanity"
+      "invite_link": null,
+      "invite_status": "skipped"
     },
     {
       "name": "Darkcord",
@@ -4009,6 +4009,285 @@
       "owner": false,
       "approximate_member_count": 3294,
       "icon": "https://cdn.discordapp.com/icons/1362187743014289468/a_160d609ad84ceaa51a0a9235f542eaf7.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "ARMA",
+      "id": "105462288051380224",
+      "owner": false,
+      "approximate_member_count": 152653,
+      "icon": "https://cdn.discordapp.com/icons/105462288051380224/59c1e07bafd18d1da8b6d218c59727fd.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "theHunter: Call of the Wild",
+      "id": "393040947006406657",
+      "owner": false,
+      "approximate_member_count": 133744,
+      "icon": "https://cdn.discordapp.com/icons/393040947006406657/5578ff3d8abfe3244e8b44ac3bb9892d.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Garry's Mod",
+      "id": "565105920414318602",
+      "owner": false,
+      "approximate_member_count": 109067,
+      "icon": "https://cdn.discordapp.com/icons/565105920414318602/951854ba323c868a166e4719a91f13c4.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Arc Raiders LFG | Voice • Looking For Group • Trading • Active VC • Chill",
+      "id": "616545475293741056",
+      "owner": false,
+      "approximate_member_count": 116999,
+      "icon": "https://cdn.discordapp.com/icons/616545475293741056/81c12b41cbcd87777e69973f5ac33881.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "DaBois",
+      "id": "700472423396409375",
+      "owner": false,
+      "approximate_member_count": 50,
+      "icon": null,
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "DayZ Rearmed",
+      "id": "755342613283864577",
+      "owner": false,
+      "approximate_member_count": 129940,
+      "icon": "https://cdn.discordapp.com/icons/755342613283864577/a_3441ffd239040b7def59d6f34e1a51d2.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "TiptheG Gaming server",
+      "id": "765599465423765584",
+      "owner": false,
+      "approximate_member_count": 24,
+      "icon": "https://cdn.discordapp.com/icons/765599465423765584/3c09bd1bd9e9f0174e0e8e7bd8007a6c.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Fenix Match Elite PvP #330k",
+      "id": "895016212407386183",
+      "owner": false,
+      "approximate_member_count": 326634,
+      "icon": "https://cdn.discordapp.com/icons/895016212407386183/a_b746ca0a00231f54e45cf944655ff536.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Raider Hub™ - ARC Raiders LFG",
+      "id": "927355923314380901",
+      "owner": false,
+      "approximate_member_count": 83068,
+      "icon": "https://cdn.discordapp.com/icons/927355923314380901/a_fdbcc6da2dc08d81f6c2a8d783137333.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Escape From DayZ",
+      "id": "950116837515984936",
+      "owner": false,
+      "approximate_member_count": 36528,
+      "icon": "https://cdn.discordapp.com/icons/950116837515984936/37ddfe0a08b89af6a085fe5a924e7a13.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Ground Zero DayZ",
+      "id": "952042688889364520",
+      "owner": false,
+      "approximate_member_count": 37748,
+      "icon": "https://cdn.discordapp.com/icons/952042688889364520/a_22ad5770c0cc8e26051a0d75e4ef55e3.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Team-ELAN Arma Life",
+      "id": "975419528026677258",
+      "owner": false,
+      "approximate_member_count": 48506,
+      "icon": "https://cdn.discordapp.com/icons/975419528026677258/faa8febf1df658a7df8e3b6ec37f04bc.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "TarkovPal",
+      "id": "1019279194213064734",
+      "owner": false,
+      "approximate_member_count": 19601,
+      "icon": "https://cdn.discordapp.com/icons/1019279194213064734/82a476c7f23177468d3f233513e6613d.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Low Value Targets",
+      "id": "1078557097400217610",
+      "owner": false,
+      "approximate_member_count": 122,
+      "icon": "https://cdn.discordapp.com/icons/1078557097400217610/99c2615d5ed4172a713271edfb9a666a.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "DayZ: The Lab",
+      "id": "1100930056483770408",
+      "owner": false,
+      "approximate_member_count": 75657,
+      "icon": "https://cdn.discordapp.com/icons/1100930056483770408/91704b9f62a3c9ee9c65cc5d37b02c02.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "ARC Raiders",
+      "id": "1107589599045361695",
+      "owner": false,
+      "approximate_member_count": 1195708,
+      "icon": "https://cdn.discordapp.com/icons/1107589599045361695/7449f6d2cfb76ca7d5117ed887b249b3.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Rodeo™",
+      "id": "1135476739313762314",
+      "owner": false,
+      "approximate_member_count": 8868,
+      "icon": "https://cdn.discordapp.com/icons/1135476739313762314/a_20a643bef0a6e09494a54eb9f5279561.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "DarkRP | GarnetGaming.net",
+      "id": "1156375614190780518",
+      "owner": false,
+      "approximate_member_count": 1663,
+      "icon": "https://cdn.discordapp.com/icons/1156375614190780518/7d94ae5e9209492188bc4d8051c6eb2d.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Cravings NSFW ◊ Adult ◊ High Quality",
+      "id": "1206199335289749586",
+      "owner": false,
+      "approximate_member_count": 4012,
+      "icon": "https://cdn.discordapp.com/icons/1206199335289749586/3f10c2253c33f19f3e1fd1a7ee620ddb.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Double Cup RP",
+      "id": "1237563782083903579",
+      "owner": false,
+      "approximate_member_count": 83,
+      "icon": "https://cdn.discordapp.com/icons/1237563782083903579/725328e0c72391755d20ef528371ea85.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Blicky World",
+      "id": "1300069940505608264",
+      "owner": false,
+      "approximate_member_count": 2087,
+      "icon": "https://cdn.discordapp.com/icons/1300069940505608264/4b92cbcc21b46c0f4b2fe9fea9365c5b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "𝗴̃𝗼́𝗼́𝗻𝗲́𝗿𝘀 𝘃𝗶́𝗱𝗲́𝗼́ +18",
+      "id": "1332760607694258258",
+      "owner": false,
+      "approximate_member_count": 23030,
+      "icon": "https://cdn.discordapp.com/icons/1332760607694258258/a_9b97dfca152ef87cab71fe5bac027241.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Real Murda Business",
+      "id": "1372682688137400350",
+      "owner": false,
+      "approximate_member_count": 35,
+      "icon": "https://cdn.discordapp.com/icons/1372682688137400350/e644a6acf0351e6eb89d94e0d1342ea1.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "𝗺𝗶́𝗹𝗸 𝗺𝗮́𝗻𝘀𝗶́𝗼́𝗻 𝗻𝘀𝗳𝘄 𝘃𝗶́𝗱𝗲́𝗼́",
+      "id": "1379816343162851338",
+      "owner": false,
+      "approximate_member_count": 9462,
+      "icon": "https://cdn.discordapp.com/icons/1379816343162851338/f90a4402fd818751c63c43bcca6f48c1.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "𝙂øø𝙣ú𝙣í𝙫é𝙧𝙨é",
+      "id": "1411854254846513274",
+      "owner": false,
+      "approximate_member_count": 16598,
+      "icon": "https://cdn.discordapp.com/icons/1411854254846513274/f39e061d2b03111ab3cf8f8daa3c5af5.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "Juici's Chillzone",
+      "id": "1444201308126056591",
+      "owner": false,
+      "approximate_member_count": 44,
+      "icon": "https://cdn.discordapp.com/icons/1444201308126056591/085701ea6c47ff356c7b695767234e76.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "𝓕𝓝𝓞 𝕩 𝓢𝓣𝓚",
+      "id": "1455422099039588374",
+      "owner": false,
+      "approximate_member_count": 26,
+      "icon": "https://cdn.discordapp.com/icons/1455422099039588374/a_4503287cbbcd8db193ba899cf95eae20.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "4KT",
+      "id": "1463296793751326872",
+      "owner": true,
+      "approximate_member_count": 3,
+      "icon": "https://cdn.discordapp.com/icons/1463296793751326872/7a9f7170b0877a1b570f13ee190e9acf.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "The Real | Crazy Story Whitelist | V1",
+      "id": "1464327388656570494",
+      "owner": false,
+      "approximate_member_count": 2745,
+      "icon": "https://cdn.discordapp.com/icons/1464327388656570494/f77f8ac6b966b1c165e0b32439a3dd9b.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "SMOKE SHACK",
+      "id": "1467465982225416340",
+      "owner": false,
+      "approximate_member_count": 43,
+      "icon": "https://cdn.discordapp.com/icons/1467465982225416340/6eb0f0487c77576be80ad8f2212f3869.png",
+      "invite_link": null,
+      "invite_status": "skipped"
+    },
+    {
+      "name": "TarkovBoys",
+      "id": "1469918628798398689",
+      "owner": true,
+      "approximate_member_count": 14,
+      "icon": "https://cdn.discordapp.com/icons/1469918628798398689/f684634d47f1bc0ace143e10b76da4d2.png",
       "invite_link": null,
       "invite_status": "skipped"
     }
